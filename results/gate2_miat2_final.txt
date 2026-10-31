@@ -1,0 +1,1 @@
+{"grafcets": 4, "steps": 30, "transitions": 44, "reachable_markings": 121, "traceable_steps": "30/30"}

@@ -1,0 +1,304 @@
+[
+ {
+  "id": 0,
+  "op": "negate",
+  "target": "T4_1",
+  "findings": [],
+  "localized": false,
+  "L3_fail": 25
+ },
+ {
+  "id": 1,
+  "op": "drop_not",
+  "target": "T0_10",
+  "findings": [
+   "G4@X4"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 2,
+  "op": "retarget",
+  "target": "T4_6",
+  "findings": [
+   "G1@44",
+   "G6@44"
+  ],
+  "localized": false,
+  "L3_fail": 25
+ },
+ {
+  "id": 3,
+  "op": "drop_timeout",
+  "target": "X1",
+  "findings": [
+   "G7@X1",
+   "G10@T0_4"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 4,
+  "op": "true_cond",
+  "target": "T4_4",
+  "findings": [
+   "G4@X42"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 5,
+  "op": "drop_transition",
+  "target": "T5_12",
+  "findings": [
+   "G1@56",
+   "G6@56",
+   "G6@58"
+  ],
+  "localized": false,
+  "L3_fail": 25
+ },
+ {
+  "id": 6,
+  "op": "negate",
+  "target": "T0_4",
+  "findings": [
+   "G4@X1"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 7,
+  "op": "drop_not",
+  "target": "T0_3",
+  "findings": [
+   "G4@X1"
+  ],
+  "localized": true,
+  "L3_fail": 15
+ },
+ {
+  "id": 8,
+  "op": "retarget",
+  "target": "T0_6",
+  "findings": [],
+  "localized": false,
+  "L3_fail": 0
+ },
+ {
+  "id": 9,
+  "op": "drop_timeout",
+  "target": "X52",
+  "findings": [
+   "G10@T5_6"
+  ],
+  "localized": true,
+  "L3_fail": 19
+ },
+ {
+  "id": 10,
+  "op": "true_cond",
+  "target": "T3_3",
+  "findings": [
+   "G4@X31"
+  ],
+  "localized": true,
+  "L3_fail": 13
+ },
+ {
+  "id": 11,
+  "op": "drop_transition",
+  "target": "T0_6",
+  "findings": [
+   "G11@['3', '36', '4E']",
+   "G11@['3', '36', '4E', '5E']",
+   "G11@['3', '36']"
+  ],
+  "localized": false,
+  "L3_fail": 13
+ },
+ {
+  "id": 12,
+  "op": "negate",
+  "target": "T5_10",
+  "findings": [
+   "G4@X53"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 13,
+  "op": "drop_not",
+  "target": "T5_2",
+  "findings": [
+   "G4@X51"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 14,
+  "op": "retarget",
+  "target": "T0_4",
+  "findings": [],
+  "localized": false,
+  "L3_fail": 0
+ },
+ {
+  "id": 15,
+  "op": "drop_timeout",
+  "target": "X3",
+  "findings": [
+   "G7@X3",
+   "G8@G3:{31,32}",
+   "G10@T0_7"
+  ],
+  "localized": true,
+  "L3_fail": 13
+ },
+ {
+  "id": 16,
+  "op": "true_cond",
+  "target": "T5_15",
+  "findings": [
+   "G4@X56"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 17,
+  "op": "drop_transition",
+  "target": "T5_15",
+  "findings": [],
+  "localized": false,
+  "L3_fail": 0
+ },
+ {
+  "id": 18,
+  "op": "negate",
+  "target": "T5_12",
+  "findings": [
+   "G4@X55"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 19,
+  "op": "drop_not",
+  "target": "T0_4",
+  "findings": [
+   "G4@X1"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 20,
+  "op": "retarget",
+  "target": "T5_11",
+  "findings": [],
+  "localized": false,
+  "L3_fail": 0
+ },
+ {
+  "id": 21,
+  "op": "drop_timeout",
+  "target": "X32",
+  "findings": [
+   "G10@T3_6"
+  ],
+  "localized": true,
+  "L3_fail": 13
+ },
+ {
+  "id": 22,
+  "op": "true_cond",
+  "target": "T0_10",
+  "findings": [
+   "G4@X4"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 23,
+  "op": "drop_transition",
+  "target": "T5_9",
+  "findings": [
+   "G1@55",
+   "G6@55",
+   "G6@56",
+   "G6@58"
+  ],
+  "localized": false,
+  "L3_fail": 25
+ },
+ {
+  "id": 24,
+  "op": "negate",
+  "target": "T0_8",
+  "findings": [
+   "G4@X4"
+  ],
+  "localized": true,
+  "L3_fail": 3
+ },
+ {
+  "id": 25,
+  "op": "drop_not",
+  "target": "T5_11",
+  "findings": [
+   "G4@X53"
+  ],
+  "localized": true,
+  "L3_fail": 0
+ },
+ {
+  "id": 26,
+  "op": "retarget",
+  "target": "T3_7",
+  "findings": [
+   "G1@36",
+   "G6@36"
+  ],
+  "localized": false,
+  "L3_fail": 13
+ },
+ {
+  "id": 27,
+  "op": "drop_timeout",
+  "target": "X41",
+  "findings": [
+   "G10@T4_3"
+  ],
+  "localized": true,
+  "L3_fail": 3
+ },
+ {
+  "id": 28,
+  "op": "true_cond",
+  "target": "T5_10",
+  "findings": [
+   "G4@X53"
+  ],
+  "localized": true,
+  "L3_fail": 25
+ },
+ {
+  "id": 29,
+  "op": "drop_transition",
+  "target": "T0_5",
+  "findings": [
+   "G11@['2']"
+  ],
+  "localized": false,
+  "L3_fail": 10
+ }
+]

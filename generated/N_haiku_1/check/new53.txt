@@ -1,0 +1,24 @@
+def a53_converge(est, P):
+    if est is None:
+        return _zero(), False, True
+    x, y, h = est['x'], est['y'], est['h']
+    ty = _p(P, 'y_pre')
+    dx, dy = -x, ty - y
+    dist = math.hypot(dx, dy)
+    miss = est['age'] > _p(P, 'track_lost_s')
+    head_err = _wrap(-math.pi / 2 - h)
+    near = dist < 0.08
+    if near and abs(head_err) < math.radians(5.0):
+        return _zero(), True, miss
+    if near:
+        hd, rev = -math.pi / 2, False                    # only align the heading
+    else:
+        th = math.atan2(dy, dx)                          # direction toward pre-dock point
+        rev = math.hypot(x, y) < ty - 0.05               # too close: back away
+        hd = th + math.pi if rev else th
+    e = _wrap(hd - h)
+    w = _clip(_p(P, 'k_head') * e, W_MAX)
+    v = 0.0 if near else (-1.0 if rev else 1.0) * _p(P, 'v_conv') * max(0.0, math.cos(e))
+    return Command(v, w), False, miss
+
+

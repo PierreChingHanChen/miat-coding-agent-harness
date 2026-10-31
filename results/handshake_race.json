@@ -1,0 +1,162 @@
+{
+ "runs": [
+  {
+   "seed": 0,
+   "docked_seen": false,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 0,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 1,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 2,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 3,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 4,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 5,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 6,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 7,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 8,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  },
+  {
+   "seed": 9,
+   "docked_seen": true,
+   "T4_6": 1,
+   "T0_5": 1,
+   "T5_12": 1,
+   "T0_6": 0,
+   "g4miss": true,
+   "collided": false,
+   "top": [
+    "5",
+    "20",
+    "35"
+   ]
+  }
+ ],
+ "summary": {
+  "runs": 10,
+  "reached_56": 9,
+  "parent_ack_T0_6": 0,
+  "child_restart_T5_12": 9,
+  "g4_missed_first": 10,
+  "collided_after": 0
+ }
+}

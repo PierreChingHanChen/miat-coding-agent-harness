@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: "MIAT as a Harness for LLM Coding Agents: Replication Package"
+type: dataset
+authors:
+  - family-names: Chen
+    given-names: Ching-Han
+    affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
+  - family-names: Lin
+    given-names: Wen-Tao
+    affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
+license: [MIT, CC-BY-4.0]
+date-released: 2026-10-30
+preferred-citation:
+  type: article
+  title: "Model-Driven Harnesses for LLM Coding Agents: Contract-Bounded Generation under Synthesized Controllers"
+  authors:
+    - family-names: Chen
+      given-names: Ching-Han
+    - family-names: Lin
+      given-names: Wen-Tao
+  journal: "IEEE Transactions on Software Engineering"
+  year: 2026
+  notes: "Submitted"

@@ -1,0 +1,1158 @@
+{
+ "arms": {
+  "R_sonnet": {
+   "arm": "R",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "R_sonnet_1",
+     "n": 208,
+     "success": 0.9759615384615384,
+     "grid": 0.9702380952380952,
+     "false_dock": 2,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.6875,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_sonnet_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 4,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.625,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_sonnet_4",
+     "n": 208,
+     "success": 0.9230769230769231,
+     "grid": 0.9047619047619048,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8
+    }
+   ],
+   "mean": 0.9747596153846154,
+   "min": 0.9230769230769231,
+   "max": 1.0,
+   "sd": 0.03627073813383419,
+   "pooled_k": 811,
+   "pooled_n": 832,
+   "false_dock": 6,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "g3_missing": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "req": "raw",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 0
+  },
+  "R_haiku": {
+   "arm": "R",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "R_haiku_1",
+     "n": 208,
+     "success": 0.5,
+     "grid": 0.4107142857142857,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.71875,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_haiku_2",
+     "n": 208,
+     "success": 0.22596153846153846,
+     "grid": 0.14285714285714285,
+     "false_dock": 9,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.3125,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_haiku_3",
+     "n": 208,
+     "success": 0.12980769230769232,
+     "grid": 0.14285714285714285,
+     "false_dock": 61,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.1875,
+     "f1_safe": 8
+    },
+    {
+     "variant": "R_haiku_4",
+     "n": 208,
+     "success": 0.12980769230769232,
+     "grid": 0.14285714285714285,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.125,
+     "f1_safe": 8
+    }
+   ],
+   "mean": 0.24639423076923075,
+   "min": 0.12980769230769232,
+   "max": 0.5,
+   "sd": 0.17504115992432429,
+   "pooled_k": 205,
+   "pooled_n": 832,
+   "false_dock": 70,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "g3_missing": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "req": "raw",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 0
+  },
+  "D_sonnet": {
+   "arm": "D",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "D_sonnet_1",
+     "n": 208,
+     "success": 0.9903846153846154,
+     "grid": 0.9940476190476191,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.46875,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_sonnet_2",
+     "n": 208,
+     "success": 0.9951923076923077,
+     "grid": 0.9940476190476191,
+     "false_dock": 1,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.65625,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_sonnet_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8
+    }
+   ],
+   "mean": 0.9963942307692308,
+   "min": 0.9903846153846154,
+   "max": 1.0,
+   "sd": 0.004603014941136224,
+   "pooled_k": 829,
+   "pooled_n": 832,
+   "false_dock": 1,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "g3_missing": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "req": "full",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 0
+  },
+  "D_haiku": {
+   "arm": "D",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "D_haiku_1",
+     "n": 208,
+     "success": 0.7259615384615384,
+     "grid": 0.6666666666666666,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.5625,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_haiku_2",
+     "n": 208,
+     "success": 0.004807692307692308,
+     "grid": 0.005952380952380952,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.0,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_haiku_3",
+     "n": 208,
+     "success": 0.3942307692307692,
+     "grid": 0.25,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.625,
+     "f1_safe": 8
+    },
+    {
+     "variant": "D_haiku_4",
+     "n": 208,
+     "success": 0.28846153846153844,
+     "grid": 0.14285714285714285,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.65625,
+     "f1_safe": 8
+    }
+   ],
+   "mean": 0.3533653846153846,
+   "min": 0.004807692307692308,
+   "max": 0.7259615384615384,
+   "sd": 0.29788300143576285,
+   "pooled_k": 294,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "g3_missing": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "req": "full",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 0
+  },
+  "C_sonnet": {
+   "arm": "C",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "C_sonnet_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_sonnet_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_sonnet_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    76,
+    76,
+    76,
+    76
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 1,
+   "grafcet": 0
+  },
+  "C_haiku": {
+   "arm": "C",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "C_haiku_1",
+     "n": 208,
+     "success": 0.14903846153846154,
+     "grid": 0.13095238095238096,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.0625,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_haiku_2",
+     "n": 208,
+     "success": 0.9951923076923077,
+     "grid": 0.9940476190476191,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_haiku_3",
+     "n": 208,
+     "success": 0.9615384615384616,
+     "grid": 0.9523809523809523,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.6875,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "C_haiku_4",
+     "n": 208,
+     "success": 0.9663461538461539,
+     "grid": 0.9642857142857143,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.65625,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 0.7680288461538461,
+   "min": 0.14903846153846154,
+   "max": 0.9951923076923077,
+   "sd": 0.4129277823385364,
+   "pooled_k": 639,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    76,
+    76,
+    76,
+    76
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 1,
+   "grafcet": 0
+  },
+  "N_sonnet": {
+   "arm": "N",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "N_sonnet_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 14,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_sonnet_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 15,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 11,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_sonnet_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 13,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    14,
+    15,
+    11,
+    13
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 1
+  },
+  "N_haiku": {
+   "arm": "N",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "N_haiku_1",
+     "n": 208,
+     "success": 0.14423076923076922,
+     "grid": 0.14285714285714285,
+     "false_dock": 4,
+     "collision": 16,
+     "hang": 21,
+     "exception": 0,
+     "fault_success": 0.03125,
+     "f1_safe": 8,
+     "contract_vectors": 11,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_haiku_2",
+     "n": 208,
+     "success": 0.8653846153846154,
+     "grid": 0.9047619047619048,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 1,
+     "exception": 0,
+     "fault_success": 0.34375,
+     "f1_safe": 8,
+     "contract_vectors": 15,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_haiku_3",
+     "n": 208,
+     "success": 0.03365384615384615,
+     "grid": 0.011904761904761904,
+     "false_dock": 5,
+     "collision": 35,
+     "hang": 15,
+     "exception": 0,
+     "fault_success": 0.0,
+     "f1_safe": 8,
+     "contract_vectors": 12,
+     "g3_missing": 0
+    },
+    {
+     "variant": "N_haiku_4",
+     "n": 208,
+     "success": 0.10576923076923077,
+     "grid": 0.10714285714285714,
+     "false_dock": 1,
+     "collision": 0,
+     "hang": 2,
+     "exception": 0,
+     "fault_success": 0.03125,
+     "f1_safe": 8,
+     "contract_vectors": 10,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 0.2872596153846154,
+   "min": 0.03365384615384615,
+   "max": 0.8653846153846154,
+   "sd": 0.38813245692335113,
+   "pooled_k": 239,
+   "pooled_n": 832,
+   "false_dock": 10,
+   "collision": 51,
+   "hang": 39,
+   "exception": 0,
+   "contract_vectors": [
+    11,
+    15,
+    12,
+    10
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 0,
+   "tests": 0,
+   "grafcet": 1
+  },
+  "T_sonnet": {
+   "arm": "T",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "T_sonnet_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_sonnet_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_sonnet_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    66,
+    66,
+    66,
+    66
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 0,
+   "grafcet": 1
+  },
+  "T_haiku": {
+   "arm": "T",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "T_haiku_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_haiku_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_haiku_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    },
+    {
+     "variant": "T_haiku_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 66,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    66,
+    66,
+    66,
+    66
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 0,
+   "grafcet": 1
+  },
+  "M_sonnet": {
+   "arm": "M",
+   "model": "sonnet",
+   "programs": [
+    {
+     "variant": "M_sonnet_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 1,
+     "fault_success": 0.71875,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 1
+    },
+    {
+     "variant": "M_sonnet_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 1,
+     "fault_success": 0.71875,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 1
+    },
+    {
+     "variant": "M_sonnet_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 1,
+     "fault_success": 0.71875,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 1
+    },
+    {
+     "variant": "M_sonnet_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 3,
+   "contract_vectors": [
+    76,
+    76,
+    76,
+    76
+   ],
+   "g3_missing": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 1,
+   "grafcet": 1
+  },
+  "M_haiku": {
+   "arm": "M",
+   "model": "haiku",
+   "programs": [
+    {
+     "variant": "M_haiku_1",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "M_haiku_2",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "M_haiku_3",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    },
+    {
+     "variant": "M_haiku_4",
+     "n": 208,
+     "success": 1.0,
+     "grid": 1.0,
+     "false_dock": 0,
+     "collision": 0,
+     "hang": 0,
+     "exception": 0,
+     "fault_success": 0.75,
+     "f1_safe": 8,
+     "contract_vectors": 76,
+     "g3_missing": 0
+    }
+   ],
+   "mean": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "sd": 0.0,
+   "pooled_k": 832,
+   "pooled_n": 832,
+   "false_dock": 0,
+   "collision": 0,
+   "hang": 0,
+   "exception": 0,
+   "contract_vectors": [
+    76,
+    76,
+    76,
+    76
+   ],
+   "g3_missing": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "req": "full",
+   "contracts": 1,
+   "tests": 1,
+   "grafcet": 1
+  }
+ },
+ "tests": {
+  "R_vs_D": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6105769230769231,
+    0.6748798076923077
+   ],
+   "sd": [
+    0.40653539458437465,
+    0.39519228680382823
+   ],
+   "U": 28.0,
+   "p": 0.7109480668548791
+  },
+  "D_vs_C": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6748798076923077,
+    0.8840144230769231
+   ],
+   "sd": [
+    0.39519228680382823,
+    0.2974052772887762
+   ],
+   "U": 21.5,
+   "p": 0.28051434933376007
+  },
+  "D_vs_N": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6748798076923077,
+    0.6436298076923077
+   ],
+   "sd": [
+    0.39519228680382823,
+    0.45793607228137423
+   ],
+   "U": 29.0,
+   "p": 0.7874819012707261
+  },
+  "N_vs_T": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6436298076923077,
+    1.0
+   ],
+   "sd": [
+    0.45793607228137423,
+    0.0
+   ],
+   "U": 16.0,
+   "p": 0.03247420230516558
+  },
+  "T_vs_M": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    1.0,
+    1.0
+   ],
+   "sd": [
+    0.0,
+    0.0
+   ],
+   "U": 32.0,
+   "p": NaN
+  },
+  "C_vs_M": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.8840144230769231,
+    1.0
+   ],
+   "sd": [
+    0.2974052772887762,
+    0.0
+   ],
+   "U": 16.0,
+   "p": 0.03247420230516558
+  },
+  "D_vs_M": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6748798076923077,
+    1.0
+   ],
+   "sd": [
+    0.39519228680382823,
+    0.0
+   ],
+   "U": 8.0,
+   "p": 0.004569304569224444
+  },
+  "R_vs_M": {
+   "n": [
+    8,
+    8
+   ],
+   "mean": [
+    0.6105769230769231,
+    1.0
+   ],
+   "sd": [
+    0.40653539458437465,
+    0.0
+   ],
+   "U": 8.0,
+   "p": 0.004530010058877193
+  }
+ }
+}

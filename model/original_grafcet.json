@@ -1,0 +1,1022 @@
+{
+ "system": "Original design (ICRAAI 2026 paper / Lin thesis): AGV docking at pallet pockets",
+ "top": "G0",
+ "cmd_policy": "hold",
+ "start_markings": {
+  "approach": [
+   "3"
+  ],
+  "guidance": [
+   "4"
+  ]
+ },
+ "controls": {
+  "w_search": 0.3,
+  "approach_thr": 2.2,
+  "angle_ok_deg": 33.0,
+  "adj_turn_deg": 70.0,
+  "adj_dist": 0.8,
+  "align_bearing_max_deg": 30.0,
+  "line_lookahead": 0.35,
+  "step_dist": 0.1,
+  "v_app": 0.15,
+  "v_pallet": 0.25,
+  "k_ang": 1.2,
+  "theta_tol": 0.05,
+  "dock_thr": 1.18,
+  "score_min": 0.5,
+  "search_hold": 1.0
+ },
+ "data": {
+  "init_ok": false,
+  "sensor_ok": false,
+  "data_ok": false,
+  "map_ok": false,
+  "navi": false,
+  "navi_ok": false,
+  "det": null,
+  "bbox_ok": false,
+  "u": 0.0,
+  "center_ok": false,
+  "dist": 0.0,
+  "ang": 0.0,
+  "dis_ang_ok": false,
+  "approach_ok": false,
+  "tag_ok": false,
+  "tag": null,
+  "tag_pose": null,
+  "pose_ok": false,
+  "angle_ok": false,
+  "pose": null,
+  "mstate": null,
+  "tag_in_view": false,
+  "theta_ok": false,
+  "get_dis": false,
+  "arrived_ok": false,
+  "s31_done": false,
+  "s41_done": false,
+  "s52_done": false,
+  "s53_done": false,
+  "s54_done": false,
+  "s55_done": false,
+  "m51": {}
+ },
+ "grafcets": [
+  {
+   "id": "G0",
+   "idef0": "A0",
+   "name": "Navigate AGV to pallet docking position",
+   "initial": [
+    "0"
+   ],
+   "steps": [
+    {
+     "id": "0",
+     "idef0": "A0",
+     "actions": [
+      {
+       "fn": "a0_init",
+       "in": [],
+       "out": [
+        "init_ok",
+        "cmd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1",
+     "idef0": "A1",
+     "actions": [
+      {
+       "fn": "a1_init_sensors",
+       "in": [
+        "odom",
+        "scan"
+       ],
+       "out": [
+        "sensor_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "idef0": "A2",
+     "macro": "G2"
+    },
+    {
+     "id": "3",
+     "idef0": "A3",
+     "macro": "G3"
+    },
+    {
+     "id": "4",
+     "idef0": "A4",
+     "macro": "G4"
+    },
+    {
+     "id": "5",
+     "idef0": "A5",
+     "macro": "G5"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T0_1",
+     "from": [
+      "0"
+     ],
+     "to": [
+      "1"
+     ],
+     "cond": "init_ok"
+    },
+    {
+     "id": "T0_2",
+     "from": [
+      "1"
+     ],
+     "to": [
+      "2"
+     ],
+     "cond": "sensor_ok"
+    },
+    {
+     "id": "T0_3",
+     "from": [
+      "2"
+     ],
+     "to": [
+      "3"
+     ],
+     "cond": "navi_ok and X24"
+    },
+    {
+     "id": "T0_4",
+     "from": [
+      "3"
+     ],
+     "to": [
+      "4"
+     ],
+     "cond": "approach_ok and X35"
+    },
+    {
+     "id": "T0_5",
+     "from": [
+      "4"
+     ],
+     "to": [
+      "5"
+     ],
+     "cond": "pose_ok and X44"
+    },
+    {
+     "id": "T0_6",
+     "from": [
+      "5"
+     ],
+     "to": [
+      "0"
+     ],
+     "cond": "arrived_ok and X56"
+    }
+   ]
+  },
+  {
+   "id": "G2",
+   "idef0": "A2",
+   "name": "Build map and navigate to viewpoint",
+   "initial": [
+    "20"
+   ],
+   "final": "24",
+   "steps": [
+    {
+     "id": "20",
+     "idef0": "A2",
+     "actions": []
+    },
+    {
+     "id": "21",
+     "idef0": "A21",
+     "timed": true,
+     "actions": [
+      {
+       "fn": "a21_acquire_scan",
+       "in": [
+        "scan"
+       ],
+       "out": [
+        "data_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "22",
+     "idef0": "A22",
+     "timed": true,
+     "actions": [
+      {
+       "fn": "a22_build_map",
+       "in": [],
+       "out": [
+        "map_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "23",
+     "idef0": "A23",
+     "timed": true,
+     "actions": [
+      {
+       "fn": "a23_navigate",
+       "in": [],
+       "out": [
+        "navi"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "24",
+     "idef0": "A2",
+     "actions": [
+      {
+       "fn": "a24_exit",
+       "in": [],
+       "out": [
+        "navi_ok"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T2_1",
+     "from": [
+      "20"
+     ],
+     "to": [
+      "21"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T2_2",
+     "from": [
+      "21"
+     ],
+     "to": [
+      "22"
+     ],
+     "cond": "data_ok"
+    },
+    {
+     "id": "T2_3",
+     "from": [
+      "22"
+     ],
+     "to": [
+      "23"
+     ],
+     "cond": "map_ok"
+    },
+    {
+     "id": "T2_4",
+     "from": [
+      "23"
+     ],
+     "to": [
+      "24"
+     ],
+     "cond": "navi"
+    },
+    {
+     "id": "T2_5",
+     "from": [
+      "24"
+     ],
+     "to": [
+      "20"
+     ],
+     "cond": "1"
+    }
+   ]
+  },
+  {
+   "id": "G3",
+   "idef0": "A3",
+   "name": "Recognize pallet and approach it",
+   "initial": [
+    "30"
+   ],
+   "final": "35",
+   "steps": [
+    {
+     "id": "30",
+     "idef0": "A3",
+     "actions": []
+    },
+    {
+     "id": "31",
+     "idef0": "A31",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a31_rotate",
+       "in": [
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "s31_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "32",
+     "idef0": "A32",
+     "actions": [
+      {
+       "fn": "a32_recognize",
+       "in": [
+        "pallets",
+        "P"
+       ],
+       "out": [
+        "det",
+        "bbox_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "33",
+     "idef0": "A33",
+     "macro": "G33"
+    },
+    {
+     "id": "34",
+     "idef0": "A34",
+     "timed": true,
+     "actions": [
+      {
+       "fn": "a34_approach",
+       "in": [
+        "dist",
+        "ang",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "approach_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "35",
+     "idef0": "A3",
+     "actions": [
+      {
+       "fn": "a35_exit",
+       "in": [],
+       "out": [
+        "cmd"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T3_1",
+     "from": [
+      "30"
+     ],
+     "to": [
+      "31"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T3_2",
+     "from": [
+      "31"
+     ],
+     "to": [
+      "32"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T3_3",
+     "from": [
+      "32"
+     ],
+     "to": [
+      "33"
+     ],
+     "cond": "bbox_ok"
+    },
+    {
+     "id": "T3_4",
+     "from": [
+      "32"
+     ],
+     "to": [
+      "31"
+     ],
+     "cond": "not bbox_ok"
+    },
+    {
+     "id": "T3_5",
+     "from": [
+      "33"
+     ],
+     "to": [
+      "34"
+     ],
+     "cond": "dis_ang_ok and X334"
+    },
+    {
+     "id": "T3_6",
+     "from": [
+      "34"
+     ],
+     "to": [
+      "35"
+     ],
+     "cond": "approach_ok"
+    },
+    {
+     "id": "T3_7",
+     "from": [
+      "34"
+     ],
+     "to": [
+      "32"
+     ],
+     "cond": "not approach_ok"
+    },
+    {
+     "id": "T3_8",
+     "from": [
+      "35"
+     ],
+     "to": [
+      "30"
+     ],
+     "cond": "1"
+    }
+   ]
+  },
+  {
+   "id": "G33",
+   "idef0": "A33",
+   "name": "Compute pallet distance and bearing",
+   "initial": [
+    "330"
+   ],
+   "final": "334",
+   "steps": [
+    {
+     "id": "330",
+     "idef0": "A33",
+     "actions": []
+    },
+    {
+     "id": "331",
+     "idef0": "A331",
+     "actions": [
+      {
+       "fn": "a331_center",
+       "in": [
+        "det"
+       ],
+       "out": [
+        "u",
+        "center_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "332",
+     "idef0": "A332",
+     "actions": [
+      {
+       "fn": "a332_distance",
+       "in": [
+        "det"
+       ],
+       "out": [
+        "dist"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "333",
+     "idef0": "A333",
+     "actions": [
+      {
+       "fn": "a333_bearing",
+       "in": [
+        "u"
+       ],
+       "out": [
+        "ang"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "334",
+     "idef0": "A33",
+     "actions": [
+      {
+       "fn": "a334_exit",
+       "in": [],
+       "out": [
+        "dis_ang_ok"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T33_1",
+     "from": [
+      "330"
+     ],
+     "to": [
+      "331"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T33_2",
+     "from": [
+      "331"
+     ],
+     "to": [
+      "332",
+      "333"
+     ],
+     "cond": "center_ok"
+    },
+    {
+     "id": "T33_3",
+     "from": [
+      "332",
+      "333"
+     ],
+     "to": [
+      "334"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T33_4",
+     "from": [
+      "334"
+     ],
+     "to": [
+      "330"
+     ],
+     "cond": "1"
+    }
+   ]
+  },
+  {
+   "id": "G4",
+   "idef0": "A4",
+   "name": "Localize pocket center",
+   "initial": [
+    "40"
+   ],
+   "final": "44",
+   "steps": [
+    {
+     "id": "40",
+     "idef0": "A4",
+     "actions": []
+    },
+    {
+     "id": "41",
+     "idef0": "A41",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a41_rotate",
+       "in": [
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "s41_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "42",
+     "idef0": "A42",
+     "actions": [
+      {
+       "fn": "a42_detect_tag",
+       "in": [
+        "tags"
+       ],
+       "out": [
+        "tag",
+        "tag_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "43",
+     "idef0": "A43",
+     "actions": [
+      {
+       "fn": "a43_publish",
+       "in": [
+        "tag"
+       ],
+       "out": [
+        "tag_pose",
+        "cmd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "44",
+     "idef0": "A4",
+     "actions": [
+      {
+       "fn": "a44_exit",
+       "in": [],
+       "out": [
+        "pose_ok"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T4_1",
+     "from": [
+      "40"
+     ],
+     "to": [
+      "41"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T4_2",
+     "from": [
+      "41"
+     ],
+     "to": [
+      "42"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T4_3",
+     "from": [
+      "42"
+     ],
+     "to": [
+      "43"
+     ],
+     "cond": "tag_ok"
+    },
+    {
+     "id": "T4_4",
+     "from": [
+      "42"
+     ],
+     "to": [
+      "41"
+     ],
+     "cond": "not tag_ok"
+    },
+    {
+     "id": "T4_5",
+     "from": [
+      "43"
+     ],
+     "to": [
+      "44"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T4_6",
+     "from": [
+      "44"
+     ],
+     "to": [
+      "40"
+     ],
+     "cond": "1"
+    }
+   ]
+  },
+  {
+   "id": "G5",
+   "idef0": "A5",
+   "name": "Guide AGV into docking position",
+   "initial": [
+    "50"
+   ],
+   "final": "56",
+   "steps": [
+    {
+     "id": "50",
+     "idef0": "A5",
+     "actions": [
+      {
+       "fn": "a50_enter",
+       "in": [],
+       "out": [
+        "cmd",
+        "mstate"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "51",
+     "idef0": "A51",
+     "actions": [
+      {
+       "fn": "a51_searching",
+       "in": [
+        "tags",
+        "m51",
+        "t",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "tag_ok",
+        "angle_ok",
+        "pose",
+        "m51"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "52",
+     "idef0": "A52",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a52_angle_adjust",
+       "in": [
+        "pose",
+        "odom",
+        "mstate",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "s52_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "53",
+     "idef0": "A53",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a53_rotate_to_line",
+       "in": [
+        "tags",
+        "odom",
+        "mstate",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "tag_in_view",
+        "pose",
+        "s53_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "54",
+     "idef0": "A54",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a54_approaching",
+       "in": [
+        "tags",
+        "odom",
+        "mstate",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "tag_in_view",
+        "theta_ok",
+        "pose",
+        "s54_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "55",
+     "idef0": "A55",
+     "timed": true,
+     "blocking": true,
+     "actions": [
+      {
+       "fn": "a55_check_distance",
+       "in": [
+        "tags",
+        "pose",
+        "odom",
+        "mstate",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "get_dis",
+        "s55_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "56",
+     "idef0": "A56",
+     "status": "DOCKED",
+     "actions": [
+      {
+       "fn": "a56_stop",
+       "in": [],
+       "out": [
+        "cmd",
+        "arrived_ok"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T5_1",
+     "from": [
+      "50"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T5_2",
+     "from": [
+      "51"
+     ],
+     "to": [
+      "52"
+     ],
+     "cond": "tag_ok and not angle_ok"
+    },
+    {
+     "id": "T5_3",
+     "from": [
+      "51"
+     ],
+     "to": [
+      "53"
+     ],
+     "cond": "tag_ok and angle_ok"
+    },
+    {
+     "id": "T5_4",
+     "from": [
+      "52"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "1"
+    },
+    {
+     "id": "T5_5",
+     "from": [
+      "53"
+     ],
+     "to": [
+      "54"
+     ],
+     "cond": "tag_in_view"
+    },
+    {
+     "id": "T5_6",
+     "from": [
+      "53"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "not tag_in_view"
+    },
+    {
+     "id": "T5_7",
+     "from": [
+      "54"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "not tag_in_view"
+    },
+    {
+     "id": "T5_8",
+     "from": [
+      "54"
+     ],
+     "to": [
+      "53"
+     ],
+     "cond": "tag_in_view and not theta_ok"
+    },
+    {
+     "id": "T5_9",
+     "from": [
+      "54"
+     ],
+     "to": [
+      "55"
+     ],
+     "cond": "tag_in_view and theta_ok"
+    },
+    {
+     "id": "T5_10",
+     "from": [
+      "55"
+     ],
+     "to": [
+      "54"
+     ],
+     "cond": "not get_dis"
+    },
+    {
+     "id": "T5_11",
+     "from": [
+      "55"
+     ],
+     "to": [
+      "56"
+     ],
+     "cond": "get_dis"
+    },
+    {
+     "id": "T5_12",
+     "from": [
+      "56"
+     ],
+     "to": [
+      "50"
+     ],
+     "cond": "1"
+    }
+   ]
+  }
+ ]
+}

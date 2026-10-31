@@ -1,0 +1,1252 @@
+{
+ "C_haiku_1_v1": {
+  "loc": 296,
+  "n_functions": 25,
+  "max_cc": 13,
+  "mean_cc": 3.44,
+  "max_fn_len": 29,
+  "bad_imports": [
+   "os",
+   "sys",
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.049
+ },
+ "C_haiku_2_v1": {
+  "loc": 306,
+  "n_functions": 21,
+  "max_cc": 27,
+  "mean_cc": 4.86,
+  "max_fn_len": 70,
+  "bad_imports": [
+   "os",
+   "sys",
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.028
+ },
+ "C_haiku_3_v1": {
+  "loc": 327,
+  "n_functions": 27,
+  "max_cc": 15,
+  "mean_cc": 3.67,
+  "max_fn_len": 37,
+  "bad_imports": [
+   "os",
+   "sys",
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-03"
+  ],
+  "sim_to_reference": 0.036
+ },
+ "C_haiku_4_v1": {
+  "loc": 268,
+  "n_functions": 13,
+  "max_cc": 30,
+  "mean_cc": 6.62,
+  "max_fn_len": 86,
+  "bad_imports": [
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.015
+ },
+ "C_sonnet_1_v1": {
+  "loc": 333,
+  "n_functions": 9,
+  "max_cc": 81,
+  "mean_cc": 11.22,
+  "max_fn_len": 263,
+  "bad_imports": [
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-02",
+   "R-03"
+  ],
+  "sim_to_reference": 0.05
+ },
+ "C_sonnet_2_v1": {
+  "loc": 271,
+  "n_functions": 15,
+  "max_cc": 45,
+  "mean_cc": 6.87,
+  "max_fn_len": 87,
+  "bad_imports": [
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.031
+ },
+ "C_sonnet_3_v1": {
+  "loc": 242,
+  "n_functions": 9,
+  "max_cc": 58,
+  "mean_cc": 9.11,
+  "max_fn_len": 151,
+  "bad_imports": [
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.049
+ },
+ "C_sonnet_4_v1": {
+  "loc": 254,
+  "n_functions": 14,
+  "max_cc": 51,
+  "mean_cc": 6.79,
+  "max_fn_len": 138,
+  "bad_imports": [
+   "actions"
+  ],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.052
+ },
+ "D_haiku_1_v1": {
+  "loc": 336,
+  "n_functions": 21,
+  "max_cc": 33,
+  "mean_cc": 5.95,
+  "max_fn_len": 74,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-01",
+   "R-03",
+   "R-04",
+   "R-05",
+   "R-06",
+   "R-09"
+  ],
+  "sim_to_reference": 0.011
+ },
+ "D_haiku_1_v2": {
+  "loc": 373,
+  "n_functions": 23,
+  "max_cc": 33,
+  "mean_cc": 6.09,
+  "max_fn_len": 74,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-01",
+   "R-03",
+   "R-04",
+   "R-05",
+   "R-06",
+   "R-09",
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.002
+ },
+ "D_haiku_1_diff": {
+  "lines_added": 45,
+  "lines_removed": 2,
+  "fn_changed": [
+   "_step",
+   "reset",
+   "step"
+  ],
+  "fn_new": [
+   "_lidar_near_front",
+   "_update_inhibit"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 12.0
+ },
+ "D_haiku_2_v1": {
+  "loc": 296,
+  "n_functions": 18,
+  "max_cc": 17,
+  "mean_cc": 6.22,
+  "max_fn_len": 49,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.011
+ },
+ "D_haiku_2_v2": {
+  "loc": 343,
+  "n_functions": 20,
+  "max_cc": 25,
+  "mean_cc": 6.6,
+  "max_fn_len": 65,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-04",
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.006
+ },
+ "D_haiku_2_diff": {
+  "lines_added": 56,
+  "lines_removed": 0,
+  "fn_changed": [
+   "_step",
+   "reset"
+  ],
+  "fn_new": [
+   "_fwd_close",
+   "_update_inhibit"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 16.3
+ },
+ "D_haiku_3_v1": {
+  "loc": 249,
+  "n_functions": 16,
+  "max_cc": 26,
+  "mean_cc": 6.19,
+  "max_fn_len": 54,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-01",
+   "R-06"
+  ],
+  "sim_to_reference": 0.008
+ },
+ "D_haiku_3_v2": {
+  "loc": 280,
+  "n_functions": 17,
+  "max_cc": 26,
+  "mean_cc": 6.35,
+  "max_fn_len": 54,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-01",
+   "R-06",
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.003
+ },
+ "D_haiku_3_diff": {
+  "lines_added": 53,
+  "lines_removed": 18,
+  "fn_changed": [
+   "_safe_v",
+   "_step",
+   "reset",
+   "step"
+  ],
+  "fn_new": [
+   "_sector_return",
+   "_update_safety"
+  ],
+  "fn_removed": [
+   "_front_min"
+  ],
+  "pct_lines_touched": 23.7
+ },
+ "D_haiku_4_v1": {
+  "loc": 244,
+  "n_functions": 15,
+  "max_cc": 19,
+  "mean_cc": 6.07,
+  "max_fn_len": 58,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-06"
+  ],
+  "sim_to_reference": 0.017
+ },
+ "D_haiku_4_v2": {
+  "loc": 281,
+  "n_functions": 16,
+  "max_cc": 28,
+  "mean_cc": 6.81,
+  "max_fn_len": 74,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-06",
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.008
+ },
+ "D_haiku_4_diff": {
+  "lines_added": 41,
+  "lines_removed": 0,
+  "fn_changed": [
+   "_step",
+   "reset"
+  ],
+  "fn_new": [
+   "_front_min"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 14.1
+ },
+ "D_sonnet_1_v1": {
+  "loc": 375,
+  "n_functions": 24,
+  "max_cc": 19,
+  "mean_cc": 5.96,
+  "max_fn_len": 43,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.018
+ },
+ "D_sonnet_1_v2": {
+  "loc": 402,
+  "n_functions": 25,
+  "max_cc": 21,
+  "mean_cc": 6.24,
+  "max_fn_len": 56,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-10"
+  ],
+  "sim_to_reference": 0.007
+ },
+ "D_sonnet_1_diff": {
+  "lines_added": 30,
+  "lines_removed": 1,
+  "fn_changed": [
+   "_step",
+   "reset"
+  ],
+  "fn_new": [
+   "_front_close"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 7.5
+ },
+ "D_sonnet_2_v1": {
+  "loc": 515,
+  "n_functions": 28,
+  "max_cc": 23,
+  "mean_cc": 6.46,
+  "max_fn_len": 57,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.014
+ },
+ "D_sonnet_2_v2": {
+  "loc": 545,
+  "n_functions": 29,
+  "max_cc": 23,
+  "mean_cc": 6.69,
+  "max_fn_len": 57,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-10"
+  ],
+  "sim_to_reference": 0.005
+ },
+ "D_sonnet_2_diff": {
+  "lines_added": 32,
+  "lines_removed": 1,
+  "fn_changed": [
+   "reset",
+   "step"
+  ],
+  "fn_new": [
+   "_supervisor"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.7
+ },
+ "D_sonnet_3_v1": {
+  "loc": 416,
+  "n_functions": 23,
+  "max_cc": 18,
+  "mean_cc": 6.7,
+  "max_fn_len": 41,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.021
+ },
+ "D_sonnet_3_v2": {
+  "loc": 433,
+  "n_functions": 23,
+  "max_cc": 21,
+  "mean_cc": 7.09,
+  "max_fn_len": 54,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-10"
+  ],
+  "sim_to_reference": 0.023
+ },
+ "D_sonnet_3_diff": {
+  "lines_added": 18,
+  "lines_removed": 0,
+  "fn_changed": [
+   "_step",
+   "reset"
+  ],
+  "fn_new": [],
+  "fn_removed": [],
+  "pct_lines_touched": 4.0
+ },
+ "D_sonnet_4_v1": {
+  "loc": 559,
+  "n_functions": 36,
+  "max_cc": 16,
+  "mean_cc": 5.56,
+  "max_fn_len": 45,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.013
+ },
+ "D_sonnet_4_v2": {
+  "loc": 584,
+  "n_functions": 36,
+  "max_cc": 16,
+  "mean_cc": 5.86,
+  "max_fn_len": 45,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-10"
+  ],
+  "sim_to_reference": 0.009
+ },
+ "D_sonnet_4_diff": {
+  "lines_added": 32,
+  "lines_removed": 6,
+  "fn_changed": [
+   "_blocked",
+   "_drive_to",
+   "_s_FINAL",
+   "reset",
+   "step"
+  ],
+  "fn_new": [],
+  "fn_removed": [],
+  "pct_lines_touched": 6.2
+ },
+ "M_haiku_1_v1": {
+  "loc": 356,
+  "n_functions": 40,
+  "max_cc": 12,
+  "mean_cc": 3.25,
+  "max_fn_len": 52,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.116
+ },
+ "M_haiku_1_v2": {
+  "loc": 378,
+  "n_functions": 42,
+  "max_cc": 12,
+  "mean_cc": 3.33,
+  "max_fn_len": 52,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-1"
+  ],
+  "sim_to_reference": 0.123
+ },
+ "M_haiku_1_diff": {
+  "lines_added": 27,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.9
+ },
+ "M_haiku_2_v1": {
+  "loc": 356,
+  "n_functions": 42,
+  "max_cc": 12,
+  "mean_cc": 3.12,
+  "max_fn_len": 49,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.124
+ },
+ "M_haiku_2_v2": {
+  "loc": 380,
+  "n_functions": 44,
+  "max_cc": 12,
+  "mean_cc": 3.2,
+  "max_fn_len": 49,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.127
+ },
+ "M_haiku_2_diff": {
+  "lines_added": 29,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 6.2
+ },
+ "M_haiku_3_v1": {
+  "loc": 368,
+  "n_functions": 40,
+  "max_cc": 11,
+  "mean_cc": 3.25,
+  "max_fn_len": 50,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.236
+ },
+ "M_haiku_3_v2": {
+  "loc": 392,
+  "n_functions": 42,
+  "max_cc": 11,
+  "mean_cc": 3.36,
+  "max_fn_len": 50,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.234
+ },
+ "M_haiku_3_diff": {
+  "lines_added": 29,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 6.1
+ },
+ "M_haiku_4_v1": {
+  "loc": 352,
+  "n_functions": 42,
+  "max_cc": 11,
+  "mean_cc": 3.02,
+  "max_fn_len": 47,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.135
+ },
+ "M_haiku_4_v2": {
+  "loc": 372,
+  "n_functions": 44,
+  "max_cc": 11,
+  "mean_cc": 3.11,
+  "max_fn_len": 47,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-1",
+   "R-10"
+  ],
+  "sim_to_reference": 0.145
+ },
+ "M_haiku_4_diff": {
+  "lines_added": 25,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.6
+ },
+ "M_sonnet_1_v1": {
+  "loc": 309,
+  "n_functions": 38,
+  "max_cc": 14,
+  "mean_cc": 3.32,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.316
+ },
+ "M_sonnet_1_v2": {
+  "loc": 327,
+  "n_functions": 40,
+  "max_cc": 14,
+  "mean_cc": 3.42,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.326
+ },
+ "M_sonnet_1_diff": {
+  "lines_added": 22,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.7
+ },
+ "M_sonnet_2_v1": {
+  "loc": 314,
+  "n_functions": 38,
+  "max_cc": 14,
+  "mean_cc": 3.5,
+  "max_fn_len": 41,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.327
+ },
+ "M_sonnet_2_v2": {
+  "loc": 331,
+  "n_functions": 40,
+  "max_cc": 14,
+  "mean_cc": 3.6,
+  "max_fn_len": 41,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.336
+ },
+ "M_sonnet_2_diff": {
+  "lines_added": 21,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.4
+ },
+ "M_sonnet_3_v1": {
+  "loc": 321,
+  "n_functions": 38,
+  "max_cc": 14,
+  "mean_cc": 3.47,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.316
+ },
+ "M_sonnet_3_v2": {
+  "loc": 338,
+  "n_functions": 40,
+  "max_cc": 14,
+  "mean_cc": 3.58,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-1"
+  ],
+  "sim_to_reference": 0.317
+ },
+ "M_sonnet_3_diff": {
+  "lines_added": 22,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.5
+ },
+ "M_sonnet_4_v1": {
+  "loc": 308,
+  "n_functions": 39,
+  "max_cc": 14,
+  "mean_cc": 3.31,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.398
+ },
+ "M_sonnet_4_v2": {
+  "loc": 325,
+  "n_functions": 41,
+  "max_cc": 14,
+  "mean_cc": 3.39,
+  "max_fn_len": 37,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.395
+ },
+ "M_sonnet_4_diff": {
+  "lines_added": 21,
+  "lines_removed": 0,
+  "fn_changed": [],
+  "fn_new": [
+   "as1_obstacle_monitor",
+   "as2_inhibit_forward"
+  ],
+  "fn_removed": [],
+  "pct_lines_touched": 5.4
+ },
+ "N_haiku_1_v1": {
+  "loc": 343,
+  "n_functions": 45,
+  "max_cc": 11,
+  "mean_cc": 2.93,
+  "max_fn_len": 30,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-06"
+  ],
+  "sim_to_reference": 0.063
+ },
+ "N_haiku_2_v1": {
+  "loc": 293,
+  "n_functions": 37,
+  "max_cc": 17,
+  "mean_cc": 3.62,
+  "max_fn_len": 36,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.028
+ },
+ "N_haiku_3_v1": {
+  "loc": 418,
+  "n_functions": 42,
+  "max_cc": 21,
+  "mean_cc": 3.88,
+  "max_fn_len": 50,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.088
+ },
+ "N_haiku_4_v1": {
+  "loc": 287,
+  "n_functions": 36,
+  "max_cc": 13,
+  "mean_cc": 3.06,
+  "max_fn_len": 29,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.067
+ },
+ "N_sonnet_1_v1": {
+  "loc": 470,
+  "n_functions": 42,
+  "max_cc": 22,
+  "mean_cc": 4.31,
+  "max_fn_len": 71,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.044
+ },
+ "N_sonnet_2_v1": {
+  "loc": 470,
+  "n_functions": 43,
+  "max_cc": 22,
+  "mean_cc": 4.7,
+  "max_fn_len": 63,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.096
+ },
+ "N_sonnet_3_v1": {
+  "loc": 482,
+  "n_functions": 42,
+  "max_cc": 22,
+  "mean_cc": 4.69,
+  "max_fn_len": 59,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.017
+ },
+ "N_sonnet_4_v1": {
+  "loc": 530,
+  "n_functions": 42,
+  "max_cc": 16,
+  "mean_cc": 5.14,
+  "max_fn_len": 58,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.012
+ },
+ "R_haiku_1_v1": {
+  "loc": 204,
+  "n_functions": 13,
+  "max_cc": 22,
+  "mean_cc": 6.38,
+  "max_fn_len": 44,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.007
+ },
+ "R_haiku_2_v1": {
+  "loc": 188,
+  "n_functions": 14,
+  "max_cc": 19,
+  "mean_cc": 4.86,
+  "max_fn_len": 44,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-03"
+  ],
+  "sim_to_reference": 0.019
+ },
+ "R_haiku_3_v1": {
+  "loc": 215,
+  "n_functions": 12,
+  "max_cc": 22,
+  "mean_cc": 8.5,
+  "max_fn_len": 42,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.008
+ },
+ "R_haiku_4_v1": {
+  "loc": 179,
+  "n_functions": 8,
+  "max_cc": 15,
+  "mean_cc": 7.88,
+  "max_fn_len": 43,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-03",
+   "R-04"
+  ],
+  "sim_to_reference": 0.011
+ },
+ "R_sonnet_1_v1": {
+  "loc": 315,
+  "n_functions": 14,
+  "max_cc": 36,
+  "mean_cc": 8.21,
+  "max_fn_len": 101,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [
+   "R-01"
+  ],
+  "sim_to_reference": 0.024
+ },
+ "R_sonnet_2_v1": {
+  "loc": 273,
+  "n_functions": 14,
+  "max_cc": 31,
+  "mean_cc": 7.43,
+  "max_fn_len": 77,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.026
+ },
+ "R_sonnet_3_v1": {
+  "loc": 295,
+  "n_functions": 13,
+  "max_cc": 53,
+  "mean_cc": 8.77,
+  "max_fn_len": 125,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.027
+ },
+ "R_sonnet_4_v1": {
+  "loc": 319,
+  "n_functions": 13,
+  "max_cc": 44,
+  "mean_cc": 10.0,
+  "max_fn_len": 104,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.024
+ },
+ "T_haiku_1_v1": {
+  "loc": 371,
+  "n_functions": 39,
+  "max_cc": 11,
+  "mean_cc": 3.23,
+  "max_fn_len": 60,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.121
+ },
+ "T_haiku_2_v1": {
+  "loc": 351,
+  "n_functions": 42,
+  "max_cc": 14,
+  "mean_cc": 3.26,
+  "max_fn_len": 42,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.145
+ },
+ "T_haiku_3_v1": {
+  "loc": 353,
+  "n_functions": 39,
+  "max_cc": 14,
+  "mean_cc": 3.44,
+  "max_fn_len": 43,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.109
+ },
+ "T_haiku_4_v1": {
+  "loc": 359,
+  "n_functions": 40,
+  "max_cc": 12,
+  "mean_cc": 3.35,
+  "max_fn_len": 46,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.121
+ },
+ "T_sonnet_1_v1": {
+  "loc": 340,
+  "n_functions": 39,
+  "max_cc": 14,
+  "mean_cc": 3.44,
+  "max_fn_len": 43,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.409
+ },
+ "T_sonnet_2_v1": {
+  "loc": 341,
+  "n_functions": 40,
+  "max_cc": 12,
+  "mean_cc": 3.35,
+  "max_fn_len": 39,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.384
+ },
+ "T_sonnet_3_v1": {
+  "loc": 326,
+  "n_functions": 41,
+  "max_cc": 14,
+  "mean_cc": 3.34,
+  "max_fn_len": 38,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.208
+ },
+ "T_sonnet_4_v1": {
+  "loc": 343,
+  "n_functions": 39,
+  "max_cc": 12,
+  "mean_cc": 3.38,
+  "max_fn_len": 41,
+  "bad_imports": [],
+  "bad_api_names": [],
+  "api_hallucinations": [],
+  "blocking_constructs": 0,
+  "global_stmts": 0,
+  "module_mutable_state": 0,
+  "req_ids_in_code": [],
+  "sim_to_reference": 0.37
+ }
+}

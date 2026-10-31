@@ -1,0 +1,31 @@
+{"grafcets": 6, "steps": 34, "transitions": 41, "reachable_markings": 52, "traceable_steps": "34/34"}
+G3: 3
+   T3_2 (X31): '=1' after a time-consuming action: completion event not modelled (relies on a blocking call)
+   T4_2 (X41): '=1' after a time-consuming action: completion event not modelled (relies on a blocking call)
+   T5_4 (X52): '=1' after a time-consuming action: completion event not modelled (relies on a blocking call)
+G7: 12
+   X0: waits for an event without timeout or bounded parent
+   X1: waits for an event without timeout or bounded parent
+   X2: waits for an event without timeout or bounded parent
+   X3: waits for an event without timeout or bounded parent
+   X4: waits for an event without timeout or bounded parent
+   X5: waits for an event without timeout or bounded parent
+   X21: waits for an event without timeout or bounded parent
+   X22: waits for an event without timeout or bounded parent
+   X23: waits for an event without timeout or bounded parent
+   X33: waits for an event without timeout or bounded parent
+   X331: waits for an event without timeout or bounded parent
+   X51: waits for an event without timeout or bounded parent
+G8: 4
+   G0:{0,1,2,3,4,5}: loop without bounded counter or timed parent (possible livelock)
+   G3:{30,31,32,33,34,35}: loop without bounded counter or timed parent (possible livelock)
+   G4:{40,41,42,43,44}: loop without bounded counter or timed parent (possible livelock)
+   G5:{50,51,52,53,54,55,56}: loop without bounded counter or timed parent (possible livelock)
+G9: 5
+   T0_3 ↔ T2_5: parent waits for X24 but X24 leaves on '=1' in the same scan: completion can be missed unless the flag is produced earlier (binding not specified)
+   T0_4 ↔ T3_8: parent waits for X35 but X35 leaves on '=1' in the same scan: completion can be missed unless the flag is produced earlier (binding not specified)
+   T0_5 ↔ T4_6: parent waits for X44 but X44 leaves on '=1' in the same scan: completion can be missed unless the flag is produced earlier (binding not specified)
+   T0_6 ↔ T5_12: parent waits for X56 but X56 leaves on '=1' in the same scan: completion can be missed unless the flag is produced earlier (binding not specified)
+   T3_5 ↔ T33_4: parent waits for X334 but X334 leaves on '=1' in the same scan: completion can be missed unless the flag is produced earlier (binding not specified)
+G12: 1
+   model: no safe-abort (ABORTED) state: failures cannot be reported, only waited out

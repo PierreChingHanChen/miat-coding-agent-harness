@@ -1,0 +1,5653 @@
+{
+ "grid": {
+  "MIAT2": {
+   "table": {
+    "2.2": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "2.5": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "2.8": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ]
+   },
+   "n_per_cell": 50,
+   "overall": {
+    "k": 1050,
+    "n": 1050,
+    "p": 1.0,
+    "ci": [
+     0.996,
+     1.0
+    ]
+   },
+   "outcome": {
+    "n": 1050,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 29.4
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 1.0
+   },
+   "inside_envelope": {
+    "k": 350,
+    "n": 350,
+    "p": 1.0,
+    "ci": [
+     0.989,
+     1.0
+    ]
+   }
+  },
+  "MIAT2-dApp2.2": {
+   "table": {
+    "2.2": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.5": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.8": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ]
+   },
+   "n_per_cell": 20,
+   "overall": {
+    "k": 420,
+    "n": 420,
+    "p": 1.0,
+    "ci": [
+     0.991,
+     1
+    ]
+   },
+   "outcome": {
+    "n": 420,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 29.8
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 1.0
+   },
+   "inside_envelope": {
+    "k": 140,
+    "n": 140,
+    "p": 1.0,
+    "ci": [
+     0.973,
+     1
+    ]
+   }
+  },
+  "MIAT2-noBlind": {
+   "table": {
+    "2.2": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.5": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.8": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ]
+   },
+   "n_per_cell": 20,
+   "overall": {
+    "k": 420,
+    "n": 420,
+    "p": 1.0,
+    "ci": [
+     0.991,
+     1
+    ]
+   },
+   "outcome": {
+    "n": 420,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 29.4
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 1.0
+   },
+   "inside_envelope": {
+    "k": 140,
+    "n": 140,
+    "p": 1.0,
+    "ci": [
+     0.973,
+     1
+    ]
+   }
+  },
+  "MIAT2-noConfirm": {
+   "table": {
+    "2.2": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.5": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.8": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ]
+   },
+   "n_per_cell": 20,
+   "overall": {
+    "k": 420,
+    "n": 420,
+    "p": 1.0,
+    "ci": [
+     0.991,
+     1
+    ]
+   },
+   "outcome": {
+    "n": 420,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 29.6
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 1.0
+   },
+   "inside_envelope": {
+    "k": 140,
+    "n": 140,
+    "p": 1.0,
+    "ci": [
+     0.973,
+     1
+    ]
+   }
+  },
+  "MIAT2-noFOVplan": {
+   "table": {
+    "2.2": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.5": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "2.8": [
+     19,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ]
+   },
+   "n_per_cell": 20,
+   "overall": {
+    "k": 419,
+    "n": 420,
+    "p": 0.9976,
+    "ci": [
+     0.987,
+     1.0
+    ]
+   },
+   "outcome": {
+    "n": 420,
+    "success": 0.9976,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 1,
+    "exception": 0,
+    "t_mean_success": 32.6
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 0.993
+   },
+   "inside_envelope": {
+    "k": 140,
+    "n": 140,
+    "p": 1.0,
+    "ci": [
+     0.973,
+     1
+    ]
+   }
+  },
+  "MIAT2-noRecovery": {
+   "table": {
+    "2.2": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "2.5": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "2.8": [
+     0,
+     50,
+     50,
+     50,
+     50,
+     50,
+     0
+    ]
+   },
+   "n_per_cell": 50,
+   "overall": {
+    "k": 950,
+    "n": 1050,
+    "p": 0.9048,
+    "ci": [
+     0.886,
+     0.921
+    ]
+   },
+   "outcome": {
+    "n": 1050,
+    "success": 0.9048,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 100,
+    "exception": 0,
+    "t_mean_success": 27.5
+   },
+   "row_rates": {
+    "2.2": 1.0,
+    "2.5": 1.0,
+    "2.8": 0.714
+   },
+   "inside_envelope": {
+    "k": 350,
+    "n": 350,
+    "p": 1.0,
+    "ci": [
+     0.989,
+     1.0
+    ]
+   }
+  },
+  "Original": {
+   "table": {
+    "2.2": [
+     0,
+     13,
+     33,
+     47,
+     12,
+     8,
+     1
+    ],
+    "2.5": [
+     1,
+     16,
+     43,
+     47,
+     18,
+     2,
+     5
+    ],
+    "2.8": [
+     0,
+     26,
+     48,
+     49,
+     23,
+     3,
+     0
+    ]
+   },
+   "n_per_cell": 50,
+   "overall": {
+    "k": 395,
+    "n": 1050,
+    "p": 0.3762,
+    "ci": [
+     0.347,
+     0.406
+    ]
+   },
+   "outcome": {
+    "n": 1050,
+    "success": 0.3762,
+    "collision": 0,
+    "false_dock": 37,
+    "hang": 618,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 32.4
+   },
+   "row_rates": {
+    "2.2": 0.326,
+    "2.5": 0.377,
+    "2.8": 0.426
+   },
+   "inside_envelope": {
+    "k": 114,
+    "n": 350,
+    "p": 0.3257,
+    "ci": [
+     0.279,
+     0.376
+    ]
+   }
+  }
+ },
+ "e2e": {
+  "MIAT2": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 56.5
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.0
+    }
+   }
+  },
+  "MIAT2-dApp2.2": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 54.5
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 61.5
+    }
+   }
+  },
+  "MIAT2-noBlind": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 56.5
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.0
+    }
+   }
+  },
+  "MIAT2-noConfirm": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 55.7
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 32,
+     "n": 50,
+     "p": 0.64,
+     "ci": [
+      0.501,
+      0.759
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 0.64,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 18,
+     "exception": 0,
+     "t_mean_success": 74.7
+    }
+   }
+  },
+  "MIAT2-noFOVplan": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 58.2
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.2
+    }
+   }
+  },
+  "MIAT2-noRecovery": {
+   "simple": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 56.5
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 50,
+     "n": 50,
+     "p": 1.0,
+     "ci": [
+      0.929,
+      1
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.0
+    }
+   }
+  },
+  "Original": {
+   "simple": {
+    "rate": {
+     "k": 43,
+     "n": 50,
+     "p": 0.86,
+     "ci": [
+      0.738,
+      0.93
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 0.86,
+     "collision": 0,
+     "false_dock": 1,
+     "hang": 6,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 63.6
+    }
+   },
+   "cluttered": {
+    "rate": {
+     "k": 33,
+     "n": 50,
+     "p": 0.66,
+     "ci": [
+      0.522,
+      0.776
+     ]
+    },
+    "outcome": {
+     "n": 50,
+     "success": 0.66,
+     "collision": 0,
+     "false_dock": 1,
+     "hang": 16,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 71.8
+    }
+   }
+  }
+ },
+ "faults": {
+  "F1_tag_occluded": {
+   "MIAT2": {
+    "n": 30,
+    "success": 0.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 30,
+    "exception": 0,
+    "t_mean_success": null
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 30,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": null
+   }
+  },
+  "F2_camera_freeze": {
+   "MIAT2": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 60.1
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.8333,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 5,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 65.9
+   }
+  },
+  "F3_pose_outliers": {
+   "MIAT2": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 64.1
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.5333,
+    "collision": 0,
+    "false_dock": 4,
+    "hang": 10,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 63.9
+   }
+  },
+  "F4_false_pos_x3": {
+   "MIAT2": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 70.2
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.5,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 15,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 63.5
+   }
+  },
+  "F5_depth_zero_40": {
+   "MIAT2": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 55.2
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.7,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 9,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 71.4
+   }
+  },
+  "F6_odom_slip_x3": {
+   "MIAT2": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 55.1
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.8667,
+    "collision": 0,
+    "false_dock": 2,
+    "hang": 2,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 60.3
+   }
+  },
+  "F7_person_steps_in": {
+   "MIAT2": {
+    "n": 30,
+    "success": 0.2,
+    "collision": 24,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 55.5,
+    "min_clearance_m": -0.024,
+    "person_contacts": 24
+   },
+   "MIAT2+CR": {
+    "n": 30,
+    "success": 1.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 60.5,
+    "min_clearance_m": 0.201,
+    "person_contacts": 0
+   },
+   "Original": {
+    "n": 30,
+    "success": 0.3667,
+    "collision": 19,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 0,
+    "exception": 0,
+    "t_mean_success": 63.1,
+    "min_clearance_m": -0.022,
+    "person_contacts": 19
+   }
+  }
+ },
+ "gen": {
+  "C_haiku_1": {
+   "grid": {
+    "k": 22,
+    "n": 168,
+    "p": 0.131,
+    "ci": [
+     0.088,
+     0.19
+    ]
+   },
+   "grid22": {
+    "k": 6,
+    "n": 56,
+    "p": 0.1071,
+    "ci": [
+     0.05,
+     0.215
+    ]
+   },
+   "e2e_simple": {
+    "k": 5,
+    "n": 20,
+    "p": 0.25,
+    "ci": [
+     0.112,
+     0.469
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 4,
+    "n": 20,
+    "p": 0.2,
+    "ci": [
+     0.081,
+     0.416
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.0625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 30,
+    "exception": 0,
+    "t_mean_success": 71.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.1375,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 207,
+    "exception": 0,
+    "t_mean_success": 42.4
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 296,
+    "n_functions": 25,
+    "max_cc": 13,
+    "mean_cc": 3.44,
+    "max_fn_len": 29,
+    "bad_imports": [
+     "os",
+     "sys",
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.049
+   }
+  },
+  "C_haiku_2": {
+   "grid": {
+    "k": 167,
+    "n": 168,
+    "p": 0.994,
+    "ci": [
+     0.967,
+     0.999
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 57.8
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 9,
+    "exception": 0,
+    "t_mean_success": 37.7
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 306,
+    "n_functions": 21,
+    "max_cc": 27,
+    "mean_cc": 4.86,
+    "max_fn_len": 70,
+    "bad_imports": [
+     "os",
+     "sys",
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.028
+   }
+  },
+  "C_haiku_3": {
+   "grid": {
+    "k": 160,
+    "n": 168,
+    "p": 0.9524,
+    "ci": [
+     0.909,
+     0.976
+    ]
+   },
+   "grid22": {
+    "k": 54,
+    "n": 56,
+    "p": 0.9643,
+    "ci": [
+     0.879,
+     0.99
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.6875,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 10,
+    "exception": 0,
+    "t_mean_success": 59.2
+   },
+   "all": {
+    "n": 240,
+    "success": 0.925,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 18,
+    "exception": 0,
+    "t_mean_success": 37.4
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 327,
+    "n_functions": 27,
+    "max_cc": 15,
+    "mean_cc": 3.67,
+    "max_fn_len": 37,
+    "bad_imports": [
+     "os",
+     "sys",
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-03"
+    ],
+    "sim_to_reference": 0.036
+   }
+  },
+  "C_haiku_4": {
+   "grid": {
+    "k": 162,
+    "n": 168,
+    "p": 0.9643,
+    "ci": [
+     0.924,
+     0.984
+    ]
+   },
+   "grid22": {
+    "k": 54,
+    "n": 56,
+    "p": 0.9643,
+    "ci": [
+     0.879,
+     0.99
+    ]
+   },
+   "e2e_simple": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "ci": [
+     0.764,
+     0.991
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.6562,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 11,
+    "exception": 0,
+    "t_mean_success": 57.8
+   },
+   "all": {
+    "n": 240,
+    "success": 0.925,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 18,
+    "exception": 0,
+    "t_mean_success": 36.3
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 268,
+    "n_functions": 13,
+    "max_cc": 30,
+    "mean_cc": 6.62,
+    "max_fn_len": 86,
+    "bad_imports": [
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.015
+   }
+  },
+  "C_sonnet_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 70.8
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 39.1
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 333,
+    "n_functions": 9,
+    "max_cc": 81,
+    "mean_cc": 11.22,
+    "max_fn_len": 263,
+    "bad_imports": [
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-02",
+     "R-03"
+    ],
+    "sim_to_reference": 0.05
+   }
+  },
+  "C_sonnet_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 53.7
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 36.1
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 271,
+    "n_functions": 15,
+    "max_cc": 45,
+    "mean_cc": 6.87,
+    "max_fn_len": 87,
+    "bad_imports": [
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.031
+   }
+  },
+  "C_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 53.4
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 34.7
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 242,
+    "n_functions": 9,
+    "max_cc": 58,
+    "mean_cc": 9.11,
+    "max_fn_len": 151,
+    "bad_imports": [
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.049
+   }
+  },
+  "C_sonnet_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 36.6
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 254,
+    "n_functions": 14,
+    "max_cc": 51,
+    "mean_cc": 6.79,
+    "max_fn_len": 138,
+    "bad_imports": [
+     "actions"
+    ],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.052
+   }
+  },
+  "D_haiku_1": {
+   "grid": {
+    "k": 112,
+    "n": 168,
+    "p": 0.6667,
+    "ci": [
+     0.592,
+     0.734
+    ]
+   },
+   "grid22": {
+    "k": 34,
+    "n": 56,
+    "p": 0.6071,
+    "ci": [
+     0.476,
+     0.724
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "ci": [
+     0.764,
+     0.991
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.5625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 14,
+    "exception": 0,
+    "t_mean_success": 70.4
+   },
+   "all": {
+    "n": 240,
+    "success": 0.7042,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 71,
+    "exception": 0,
+    "t_mean_success": 49.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 336,
+    "n_functions": 21,
+    "max_cc": 33,
+    "mean_cc": 5.95,
+    "max_fn_len": 74,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-01",
+     "R-03",
+     "R-04",
+     "R-05",
+     "R-06",
+     "R-09"
+    ],
+    "sim_to_reference": 0.011
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 67.8
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 81,
+     "n": 104,
+     "p": 0.7788,
+     "ci": [
+      0.69,
+      0.848
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 0.7788,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 23,
+     "exception": 0,
+     "t_mean_success": 46.3
+    },
+    "diff": {
+     "lines_added": 45,
+     "lines_removed": 2,
+     "fn_changed": [
+      "_step",
+      "reset",
+      "step"
+     ],
+     "fn_new": [
+      "_lidar_near_front",
+      "_update_inhibit"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 12.0
+    },
+    "static": {
+     "loc": 373,
+     "n_functions": 23,
+     "max_cc": 33,
+     "mean_cc": 6.09,
+     "max_fn_len": 74,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-01",
+      "R-03",
+      "R-04",
+      "R-05",
+      "R-06",
+      "R-09",
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.002
+    }
+   }
+  },
+  "D_haiku_2": {
+   "grid": {
+    "k": 1,
+    "n": 168,
+    "p": 0.006,
+    "ci": [
+     0.001,
+     0.033
+    ]
+   },
+   "grid22": {
+    "k": 1,
+    "n": 56,
+    "p": 0.0179,
+    "ci": [
+     0.003,
+     0.094
+    ]
+   },
+   "e2e_simple": {
+    "k": 0,
+    "n": 20,
+    "p": 0.0,
+    "ci": [
+     0,
+     0.161
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 0,
+    "n": 20,
+    "p": 0.0,
+    "ci": [
+     0,
+     0.161
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.0,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 32,
+    "exception": 0,
+    "t_mean_success": null
+   },
+   "all": {
+    "n": 240,
+    "success": 0.0042,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 239,
+    "exception": 0,
+    "t_mean_success": 7.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 296,
+    "n_functions": 18,
+    "max_cc": 17,
+    "mean_cc": 6.22,
+    "max_fn_len": 49,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.011
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 0.0667,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 14,
+     "exception": 0,
+     "t_mean_success": 50.8
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 5,
+     "n": 104,
+     "p": 0.0481,
+     "ci": [
+      0.021,
+      0.108
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 0.0481,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 99,
+     "exception": 0,
+     "t_mean_success": 31.9
+    },
+    "diff": {
+     "lines_added": 56,
+     "lines_removed": 0,
+     "fn_changed": [
+      "_step",
+      "reset"
+     ],
+     "fn_new": [
+      "_fwd_close",
+      "_update_inhibit"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 16.3
+    },
+    "static": {
+     "loc": 343,
+     "n_functions": 20,
+     "max_cc": 25,
+     "mean_cc": 6.6,
+     "max_fn_len": 65,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-04",
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.006
+    }
+   }
+  },
+  "D_haiku_3": {
+   "grid": {
+    "k": 42,
+    "n": 168,
+    "p": 0.25,
+    "ci": [
+     0.191,
+     0.321
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 12,
+    "exception": 0,
+    "t_mean_success": 43.0
+   },
+   "all": {
+    "n": 240,
+    "success": 0.425,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 138,
+    "exception": 0,
+    "t_mean_success": 32.0
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 249,
+    "n_functions": 16,
+    "max_cc": 26,
+    "mean_cc": 6.19,
+    "max_fn_len": 54,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-01",
+     "R-06"
+    ],
+    "sim_to_reference": 0.008
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 47.8
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 43,
+     "n": 104,
+     "p": 0.4135,
+     "ci": [
+      0.324,
+      0.51
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 0.4135,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 61,
+     "exception": 0,
+     "t_mean_success": 31.1
+    },
+    "diff": {
+     "lines_added": 53,
+     "lines_removed": 18,
+     "fn_changed": [
+      "_safe_v",
+      "_step",
+      "reset",
+      "step"
+     ],
+     "fn_new": [
+      "_sector_return",
+      "_update_safety"
+     ],
+     "fn_removed": [
+      "_front_min"
+     ],
+     "pct_lines_touched": 23.7
+    },
+    "static": {
+     "loc": 280,
+     "n_functions": 17,
+     "max_cc": 26,
+     "mean_cc": 6.35,
+     "max_fn_len": 54,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-01",
+      "R-06",
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.003
+    }
+   }
+  },
+  "D_haiku_4": {
+   "grid": {
+    "k": 24,
+    "n": 168,
+    "p": 0.1429,
+    "ci": [
+     0.098,
+     0.204
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 17,
+    "n": 20,
+    "p": 0.85,
+    "ci": [
+     0.64,
+     0.948
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "ci": [
+     0.764,
+     0.991
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.6562,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 11,
+    "exception": 0,
+    "t_mean_success": 53.9
+   },
+   "all": {
+    "n": 240,
+    "success": 0.3375,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 159,
+    "exception": 0,
+    "t_mean_success": 39.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 244,
+    "n_functions": 15,
+    "max_cc": 19,
+    "mean_cc": 6.07,
+    "max_fn_len": 58,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-06"
+    ],
+    "sim_to_reference": 0.017
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 0.9333,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 1,
+     "exception": 0,
+     "t_mean_success": 57.4
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 32,
+     "n": 104,
+     "p": 0.3077,
+     "ci": [
+      0.227,
+      0.402
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 0.3077,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 72,
+     "exception": 0,
+     "t_mean_success": 41.4
+    },
+    "diff": {
+     "lines_added": 41,
+     "lines_removed": 0,
+     "fn_changed": [
+      "_step",
+      "reset"
+     ],
+     "fn_new": [
+      "_front_min"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 14.1
+    },
+    "static": {
+     "loc": 281,
+     "n_functions": 16,
+     "max_cc": 28,
+     "mean_cc": 6.81,
+     "max_fn_len": 74,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-06",
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.008
+    }
+   }
+  },
+  "D_sonnet_1": {
+   "grid": {
+    "k": 167,
+    "n": 168,
+    "p": 0.994,
+    "ci": [
+     0.967,
+     0.999
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "ci": [
+     0.764,
+     0.991
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.4688,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 17,
+    "exception": 0,
+    "t_mean_success": 50.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9208,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 19,
+    "exception": 0,
+    "t_mean_success": 32.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 375,
+    "n_functions": 24,
+    "max_cc": 19,
+    "mean_cc": 5.96,
+    "max_fn_len": 43,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.018
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 54.4
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 33.4
+    },
+    "diff": {
+     "lines_added": 30,
+     "lines_removed": 1,
+     "fn_changed": [
+      "_step",
+      "reset"
+     ],
+     "fn_new": [
+      "_front_close"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 7.5
+    },
+    "static": {
+     "loc": 402,
+     "n_functions": 25,
+     "max_cc": 21,
+     "mean_cc": 6.24,
+     "max_fn_len": 56,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-10"
+     ],
+     "sim_to_reference": 0.007
+    }
+   }
+  },
+  "D_sonnet_2": {
+   "grid": {
+    "k": 167,
+    "n": 168,
+    "p": 0.994,
+    "ci": [
+     0.967,
+     0.999
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 48.4
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9625,
+    "collision": 0,
+    "false_dock": 1,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 28.7
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 515,
+    "n_functions": 28,
+    "max_cc": 23,
+    "mean_cc": 6.46,
+    "max_fn_len": 57,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.014
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 51.6
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 25.6
+    },
+    "diff": {
+     "lines_added": 32,
+     "lines_removed": 1,
+     "fn_changed": [
+      "reset",
+      "step"
+     ],
+     "fn_new": [
+      "_supervisor"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.7
+    },
+    "static": {
+     "loc": 545,
+     "n_functions": 29,
+     "max_cc": 23,
+     "mean_cc": 6.69,
+     "max_fn_len": 57,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-10"
+     ],
+     "sim_to_reference": 0.005
+    }
+   }
+  },
+  "D_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.6562,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 11,
+    "exception": 0,
+    "t_mean_success": 55.4
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9542,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 11,
+    "exception": 0,
+    "t_mean_success": 30.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 416,
+    "n_functions": 23,
+    "max_cc": 18,
+    "mean_cc": 6.7,
+    "max_fn_len": 41,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.021
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 48.9
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 27.0
+    },
+    "diff": {
+     "lines_added": 18,
+     "lines_removed": 0,
+     "fn_changed": [
+      "_step",
+      "reset"
+     ],
+     "fn_new": [],
+     "fn_removed": [],
+     "pct_lines_touched": 4.0
+    },
+    "static": {
+     "loc": 433,
+     "n_functions": 23,
+     "max_cc": 21,
+     "mean_cc": 7.09,
+     "max_fn_len": 54,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-10"
+     ],
+     "sim_to_reference": 0.023
+    }
+   }
+  },
+  "D_sonnet_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 45.3
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 26.0
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 559,
+    "n_functions": 36,
+    "max_cc": 16,
+    "mean_cc": 5.56,
+    "max_fn_len": 45,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.013
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 52.8
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 24.2
+    },
+    "diff": {
+     "lines_added": 32,
+     "lines_removed": 6,
+     "fn_changed": [
+      "_blocked",
+      "_drive_to",
+      "_s_FINAL",
+      "reset",
+      "step"
+     ],
+     "fn_new": [],
+     "fn_removed": [],
+     "pct_lines_touched": 6.2
+    },
+    "static": {
+     "loc": 584,
+     "n_functions": 36,
+     "max_cc": 16,
+     "mean_cc": 5.86,
+     "max_fn_len": 45,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-10"
+     ],
+     "sim_to_reference": 0.009
+    }
+   }
+  },
+  "M_haiku_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.9
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.6
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 356,
+    "n_functions": 40,
+    "max_cc": 12,
+    "mean_cc": 3.25,
+    "max_fn_len": 52,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.116
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.2
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.0
+    },
+    "diff": {
+     "lines_added": 27,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.9
+    },
+    "static": {
+     "loc": 378,
+     "n_functions": 42,
+     "max_cc": 12,
+     "mean_cc": 3.33,
+     "max_fn_len": 52,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-1"
+     ],
+     "sim_to_reference": 0.123
+    }
+   }
+  },
+  "M_haiku_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 356,
+    "n_functions": 42,
+    "max_cc": 12,
+    "mean_cc": 3.12,
+    "max_fn_len": 49,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.124
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 29,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 6.2
+    },
+    "static": {
+     "loc": 380,
+     "n_functions": 44,
+     "max_cc": 12,
+     "mean_cc": 3.2,
+     "max_fn_len": 49,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.127
+    }
+   }
+  },
+  "M_haiku_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 368,
+    "n_functions": 40,
+    "max_cc": 11,
+    "mean_cc": 3.25,
+    "max_fn_len": 50,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.236
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.7
+    },
+    "diff": {
+     "lines_added": 29,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 6.1
+    },
+    "static": {
+     "loc": 392,
+     "n_functions": 42,
+     "max_cc": 11,
+     "mean_cc": 3.36,
+     "max_fn_len": 50,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.234
+    }
+   }
+  },
+  "M_haiku_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 352,
+    "n_functions": 42,
+    "max_cc": 11,
+    "mean_cc": 3.02,
+    "max_fn_len": 47,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.135
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 25,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.6
+    },
+    "static": {
+     "loc": 372,
+     "n_functions": 44,
+     "max_cc": 11,
+     "mean_cc": 3.11,
+     "max_fn_len": 47,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-1",
+      "R-10"
+     ],
+     "sim_to_reference": 0.145
+    }
+   }
+  },
+  "M_sonnet_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.7188,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 58.6
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 1,
+   "static": {
+    "loc": 309,
+    "n_functions": 38,
+    "max_cc": 14,
+    "mean_cc": 3.32,
+    "max_fn_len": 37,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.316
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 22,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.7
+    },
+    "static": {
+     "loc": 327,
+     "n_functions": 40,
+     "max_cc": 14,
+     "mean_cc": 3.42,
+     "max_fn_len": 37,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [],
+     "sim_to_reference": 0.326
+    }
+   }
+  },
+  "M_sonnet_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.7188,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 58.6
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 1,
+   "static": {
+    "loc": 314,
+    "n_functions": 38,
+    "max_cc": 14,
+    "mean_cc": 3.5,
+    "max_fn_len": 41,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.327
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 21,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.4
+    },
+    "static": {
+     "loc": 331,
+     "n_functions": 40,
+     "max_cc": 14,
+     "mean_cc": 3.6,
+     "max_fn_len": 41,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [],
+     "sim_to_reference": 0.336
+    }
+   }
+  },
+  "M_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.7188,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 58.6
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9625,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 1,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 1,
+   "static": {
+    "loc": 321,
+    "n_functions": 38,
+    "max_cc": 14,
+    "mean_cc": 3.47,
+    "max_fn_len": 37,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.316
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 22,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.5
+    },
+    "static": {
+     "loc": 338,
+     "n_functions": 40,
+     "max_cc": 14,
+     "mean_cc": 3.58,
+     "max_fn_len": 37,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [
+      "R-1"
+     ],
+     "sim_to_reference": 0.317
+    }
+   }
+  },
+  "M_sonnet_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 308,
+    "n_functions": 39,
+    "max_cc": 14,
+    "mean_cc": 3.31,
+    "max_fn_len": 37,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.398
+   },
+   "cr": {
+    "dyn": {
+     "n": 15,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 66.1
+    },
+    "person_contacts": 0,
+    "regression": {
+     "k": 104,
+     "n": 104,
+     "p": 1.0,
+     "ci": [
+      0.964,
+      1.0
+     ]
+    },
+    "regression_outcome": {
+     "n": 104,
+     "success": 1.0,
+     "collision": 0,
+     "false_dock": 0,
+     "hang": 0,
+     "safe_abort": 0,
+     "exception": 0,
+     "t_mean_success": 35.8
+    },
+    "diff": {
+     "lines_added": 21,
+     "lines_removed": 0,
+     "fn_changed": [],
+     "fn_new": [
+      "as1_obstacle_monitor",
+      "as2_inhibit_forward"
+     ],
+     "fn_removed": [],
+     "pct_lines_touched": 5.4
+    },
+    "static": {
+     "loc": 325,
+     "n_functions": 41,
+     "max_cc": 14,
+     "mean_cc": 3.39,
+     "max_fn_len": 37,
+     "bad_imports": [],
+     "bad_api_names": [],
+     "api_hallucinations": [],
+     "blocking_constructs": 0,
+     "global_stmts": 0,
+     "module_mutable_state": 0,
+     "req_ids_in_code": [],
+     "sim_to_reference": 0.395
+    }
+   }
+  },
+  "N_haiku_1": {
+   "grid": {
+    "k": 24,
+    "n": 168,
+    "p": 0.1429,
+    "ci": [
+     0.098,
+     0.204
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 4,
+    "n": 20,
+    "p": 0.2,
+    "ci": [
+     0.081,
+     0.416
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.0312,
+    "collision": 2,
+    "false_dock": 2,
+    "hang": 0,
+    "safe_abort": 27,
+    "exception": 0,
+    "t_mean_success": 42.0
+   },
+   "all": {
+    "n": 240,
+    "success": 0.1292,
+    "collision": 16,
+    "false_dock": 4,
+    "hang": 21,
+    "safe_abort": 168,
+    "exception": 0,
+    "t_mean_success": 20.3
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 343,
+    "n_functions": 45,
+    "max_cc": 11,
+    "mean_cc": 2.93,
+    "max_fn_len": 30,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-06"
+    ],
+    "sim_to_reference": 0.063
+   }
+  },
+  "N_haiku_2": {
+   "grid": {
+    "k": 152,
+    "n": 168,
+    "p": 0.9048,
+    "ci": [
+     0.851,
+     0.941
+    ]
+   },
+   "grid22": {
+    "k": 49,
+    "n": 56,
+    "p": 0.875,
+    "ci": [
+     0.764,
+     0.938
+    ]
+   },
+   "e2e_simple": {
+    "k": 13,
+    "n": 20,
+    "p": 0.65,
+    "ci": [
+     0.433,
+     0.819
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 15,
+    "n": 20,
+    "p": 0.75,
+    "ci": [
+     0.531,
+     0.888
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.3438,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 21,
+    "exception": 0,
+    "t_mean_success": 82.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.7958,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 1,
+    "safe_abort": 48,
+    "exception": 0,
+    "t_mean_success": 53.3
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 293,
+    "n_functions": 37,
+    "max_cc": 17,
+    "mean_cc": 3.62,
+    "max_fn_len": 36,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.028
+   }
+  },
+  "N_haiku_3": {
+   "grid": {
+    "k": 2,
+    "n": 168,
+    "p": 0.0119,
+    "ci": [
+     0.003,
+     0.042
+    ]
+   },
+   "grid22": {
+    "k": 0,
+    "n": 56,
+    "p": 0.0,
+    "ci": [
+     0,
+     0.064
+    ]
+   },
+   "e2e_simple": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 3,
+    "n": 20,
+    "p": 0.15,
+    "ci": [
+     0.052,
+     0.36
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.0,
+    "collision": 6,
+    "false_dock": 2,
+    "hang": 0,
+    "safe_abort": 24,
+    "exception": 0,
+    "t_mean_success": null
+   },
+   "all": {
+    "n": 240,
+    "success": 0.0292,
+    "collision": 35,
+    "false_dock": 5,
+    "hang": 15,
+    "safe_abort": 178,
+    "exception": 0,
+    "t_mean_success": 39.1
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 418,
+    "n_functions": 42,
+    "max_cc": 21,
+    "mean_cc": 3.88,
+    "max_fn_len": 50,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.088
+   }
+  },
+  "N_haiku_4": {
+   "grid": {
+    "k": 18,
+    "n": 168,
+    "p": 0.1071,
+    "ci": [
+     0.069,
+     0.163
+    ]
+   },
+   "grid22": {
+    "k": 6,
+    "n": 56,
+    "p": 0.1071,
+    "ci": [
+     0.05,
+     0.215
+    ]
+   },
+   "e2e_simple": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.0312,
+    "collision": 0,
+    "false_dock": 1,
+    "hang": 0,
+    "safe_abort": 30,
+    "exception": 0,
+    "t_mean_success": 105.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.0958,
+    "collision": 0,
+    "false_dock": 1,
+    "hang": 2,
+    "safe_abort": 214,
+    "exception": 0,
+    "t_mean_success": 25.7
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 287,
+    "n_functions": 36,
+    "max_cc": 13,
+    "mean_cc": 3.06,
+    "max_fn_len": 29,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.067
+   }
+  },
+  "N_sonnet_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 62.3
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.0
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 470,
+    "n_functions": 42,
+    "max_cc": 22,
+    "mean_cc": 4.31,
+    "max_fn_len": 71,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.044
+   }
+  },
+  "N_sonnet_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.9
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 35.5
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 470,
+    "n_functions": 43,
+    "max_cc": 22,
+    "mean_cc": 4.7,
+    "max_fn_len": 63,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.096
+   }
+  },
+  "N_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 55.4
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 33.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 482,
+    "n_functions": 42,
+    "max_cc": 22,
+    "mean_cc": 4.69,
+    "max_fn_len": 59,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.017
+   }
+  },
+  "N_sonnet_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 58.8
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 38.6
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 530,
+    "n_functions": 42,
+    "max_cc": 16,
+    "mean_cc": 5.14,
+    "max_fn_len": 58,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.012
+   }
+  },
+  "R_haiku_1": {
+   "grid": {
+    "k": 69,
+    "n": 168,
+    "p": 0.4107,
+    "ci": [
+     0.339,
+     0.486
+    ]
+   },
+   "grid22": {
+    "k": 21,
+    "n": 56,
+    "p": 0.375,
+    "ci": [
+     0.26,
+     0.506
+    ]
+   },
+   "e2e_simple": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "ci": [
+     0.764,
+     0.991
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 16,
+    "n": 20,
+    "p": 0.8,
+    "ci": [
+     0.584,
+     0.919
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.7188,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 9,
+    "exception": 0,
+    "t_mean_success": 68.2
+   },
+   "all": {
+    "n": 240,
+    "success": 0.5292,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 113,
+    "exception": 0,
+    "t_mean_success": 70.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 204,
+    "n_functions": 13,
+    "max_cc": 22,
+    "mean_cc": 6.38,
+    "max_fn_len": 44,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.007
+   }
+  },
+  "R_haiku_2": {
+   "grid": {
+    "k": 24,
+    "n": 168,
+    "p": 0.1429,
+    "ci": [
+     0.098,
+     0.204
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 11,
+    "n": 20,
+    "p": 0.55,
+    "ci": [
+     0.342,
+     0.742
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 12,
+    "n": 20,
+    "p": 0.6,
+    "ci": [
+     0.387,
+     0.781
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.3125,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 22,
+    "exception": 0,
+    "t_mean_success": 43.7
+   },
+   "all": {
+    "n": 240,
+    "success": 0.2375,
+    "collision": 0,
+    "false_dock": 9,
+    "hang": 0,
+    "safe_abort": 174,
+    "exception": 0,
+    "t_mean_success": 30.1
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 188,
+    "n_functions": 14,
+    "max_cc": 19,
+    "mean_cc": 4.86,
+    "max_fn_len": 44,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-03"
+    ],
+    "sim_to_reference": 0.019
+   }
+  },
+  "R_haiku_3": {
+   "grid": {
+    "k": 24,
+    "n": 168,
+    "p": 0.1429,
+    "ci": [
+     0.098,
+     0.204
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 1,
+    "n": 20,
+    "p": 0.05,
+    "ci": [
+     0.009,
+     0.236
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.1875,
+    "collision": 0,
+    "false_dock": 14,
+    "hang": 0,
+    "safe_abort": 12,
+    "exception": 0,
+    "t_mean_success": 41.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.1375,
+    "collision": 0,
+    "false_dock": 61,
+    "hang": 0,
+    "safe_abort": 146,
+    "exception": 0,
+    "t_mean_success": 18.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 215,
+    "n_functions": 12,
+    "max_cc": 22,
+    "mean_cc": 8.5,
+    "max_fn_len": 42,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.008
+   }
+  },
+  "R_haiku_4": {
+   "grid": {
+    "k": 24,
+    "n": 168,
+    "p": 0.1429,
+    "ci": [
+     0.098,
+     0.204
+    ]
+   },
+   "grid22": {
+    "k": 8,
+    "n": 56,
+    "p": 0.1429,
+    "ci": [
+     0.074,
+     0.257
+    ]
+   },
+   "e2e_simple": {
+    "k": 2,
+    "n": 20,
+    "p": 0.1,
+    "ci": [
+     0.028,
+     0.301
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 1,
+    "n": 20,
+    "p": 0.05,
+    "ci": [
+     0.009,
+     0.236
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.125,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 28,
+    "exception": 0,
+    "t_mean_success": 73.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.1292,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 209,
+    "exception": 0,
+    "t_mean_success": 20.3
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 179,
+    "n_functions": 8,
+    "max_cc": 15,
+    "mean_cc": 7.88,
+    "max_fn_len": 43,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-03",
+     "R-04"
+    ],
+    "sim_to_reference": 0.011
+   }
+  },
+  "R_sonnet_1": {
+   "grid": {
+    "k": 163,
+    "n": 168,
+    "p": 0.9702,
+    "ci": [
+     0.932,
+     0.987
+    ]
+   },
+   "grid22": {
+    "k": 54,
+    "n": 56,
+    "p": 0.9643,
+    "ci": [
+     0.879,
+     0.99
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.6875,
+    "collision": 0,
+    "false_dock": 2,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 51.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9375,
+    "collision": 0,
+    "false_dock": 2,
+    "hang": 0,
+    "safe_abort": 13,
+    "exception": 0,
+    "t_mean_success": 36.1
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 315,
+    "n_functions": 14,
+    "max_cc": 36,
+    "mean_cc": 8.21,
+    "max_fn_len": 101,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [
+     "R-01"
+    ],
+    "sim_to_reference": 0.024
+   }
+  },
+  "R_sonnet_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 42.3
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 28.6
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 273,
+    "n_functions": 14,
+    "max_cc": 31,
+    "mean_cc": 7.43,
+    "max_fn_len": 77,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.026
+   }
+  },
+  "R_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.625,
+    "collision": 0,
+    "false_dock": 4,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 47.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.95,
+    "collision": 0,
+    "false_dock": 4,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 28.2
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 295,
+    "n_functions": 13,
+    "max_cc": 53,
+    "mean_cc": 8.77,
+    "max_fn_len": 125,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.027
+   }
+  },
+  "R_sonnet_4": {
+   "grid": {
+    "k": 152,
+    "n": 168,
+    "p": 0.9048,
+    "ci": [
+     0.851,
+     0.941
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 74.9
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 24,
+    "exception": 0,
+    "t_mean_success": 34.3
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 319,
+    "n_functions": 13,
+    "max_cc": 44,
+    "mean_cc": 10.0,
+    "max_fn_len": 104,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.024
+   }
+  },
+  "T_haiku_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 62.1
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 38.5
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 371,
+    "n_functions": 39,
+    "max_cc": 11,
+    "mean_cc": 3.23,
+    "max_fn_len": 60,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.121
+   }
+  },
+  "T_haiku_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 61.2
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 38.0
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 351,
+    "n_functions": 42,
+    "max_cc": 14,
+    "mean_cc": 3.26,
+    "max_fn_len": 42,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.145
+   }
+  },
+  "T_haiku_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 61.2
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 38.0
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 353,
+    "n_functions": 39,
+    "max_cc": 14,
+    "mean_cc": 3.44,
+    "max_fn_len": 43,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.109
+   }
+  },
+  "T_haiku_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 62.3
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 359,
+    "n_functions": 40,
+    "max_cc": 12,
+    "mean_cc": 3.35,
+    "max_fn_len": 46,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.121
+   }
+  },
+  "T_sonnet_1": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 340,
+    "n_functions": 39,
+    "max_cc": 14,
+    "mean_cc": 3.44,
+    "max_fn_len": 43,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.409
+   }
+  },
+  "T_sonnet_2": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 58.9
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 341,
+    "n_functions": 40,
+    "max_cc": 12,
+    "mean_cc": 3.35,
+    "max_fn_len": 39,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.384
+   }
+  },
+  "T_sonnet_3": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 59.5
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.8
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 326,
+    "n_functions": 41,
+    "max_cc": 14,
+    "mean_cc": 3.34,
+    "max_fn_len": 38,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.208
+   }
+  },
+  "T_sonnet_4": {
+   "grid": {
+    "k": 168,
+    "n": 168,
+    "p": 1.0,
+    "ci": [
+     0.978,
+     1
+    ]
+   },
+   "grid22": {
+    "k": 56,
+    "n": 56,
+    "p": 1.0,
+    "ci": [
+     0.936,
+     1
+    ]
+   },
+   "e2e_simple": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "e2e_cluttered": {
+    "k": 20,
+    "n": 20,
+    "p": 1.0,
+    "ci": [
+     0.839,
+     1
+    ]
+   },
+   "faults": {
+    "n": 32,
+    "success": 0.75,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 57.6
+   },
+   "all": {
+    "n": 240,
+    "success": 0.9667,
+    "collision": 0,
+    "false_dock": 0,
+    "hang": 0,
+    "safe_abort": 8,
+    "exception": 0,
+    "t_mean_success": 37.9
+   },
+   "f1_safe_abort": 8,
+   "f1_n": 8,
+   "crashed_trials": 0,
+   "static": {
+    "loc": 343,
+    "n_functions": 39,
+    "max_cc": 12,
+    "mean_cc": 3.38,
+    "max_fn_len": 41,
+    "bad_imports": [],
+    "bad_api_names": [],
+    "api_hallucinations": [],
+    "blocking_constructs": 0,
+    "global_stmts": 0,
+    "module_mutable_state": 0,
+    "req_ids_in_code": [],
+    "sim_to_reference": 0.37
+   }
+  }
+ },
+ "mutation": {
+  "model": {
+   "n": 30,
+   "detected_by_model_or_contract": 25,
+   "localized": 2,
+   "detected_by_system_tests": 20,
+   "detected_any": 26,
+   "only_system": 1,
+   "undetected": 4
+  },
+  "action": {
+   "n": 40,
+   "detected_by_model_or_contract": 26,
+   "localized": 26,
+   "detected_by_system_tests": 17,
+   "detected_any": 28,
+   "only_system": 2,
+   "undetected": 12
+  }
+ }
+}

@@ -1,0 +1,1271 @@
+{
+ "system": "MIAT 2.0 redesign: AGV docking at pallet pockets (A3-A5 re-modelled after Gate-2/Phase-4 feedback) + CR-1 safety supervisor",
+ "top": "G0",
+ "cmd_policy": "zero",
+ "inputs": [
+  "start_approach",
+  "start_guidance",
+  "t",
+  "odom",
+  "tags",
+  "pallets",
+  "scan",
+  "P"
+ ],
+ "bounded_vars": [
+  "retry_ok",
+  "bo_ok"
+ ],
+ "controls": {
+  "w_search": 0.35,
+  "score_min": 0.55,
+  "width_min": 0.75,
+  "width_max": 1.45,
+  "confirm_k": 3,
+  "confirm_window_s": 0.5,
+  "confirm_tol_deg": 6.0,
+  "track_gate_deg": 8.0,
+  "track_lost_s": 2.0,
+  "d_app": 1.9,
+  "v_app": 0.25,
+  "k_bear": 1.2,
+  "app_bear_tol_deg": 4.0,
+  "tag_sweep_deg": 35.0,
+  "w_tag": 0.3,
+  "init_meas": 3,
+  "fuse_gain": 0.35,
+  "gate_pos": 0.3,
+  "gate_yaw_deg": 12.0,
+  "pose_stale_s": 3.0,
+  "near_dist": 1.1,
+  "blind_max_s": 10.0,
+  "fov_half_deg": 34.5,
+  "fov_margin_deg": 10.0,
+  "y_pre": 1.65,
+  "repos_extra": 0.6,
+  "v_conv": 0.2,
+  "v_final": 0.12,
+  "k_head": 1.6,
+  "k_lat": 2.5,
+  "dock_y": 1.13,
+  "x_tol": 0.03,
+  "head_tol_deg": 2.0,
+  "verify_lat": 0.04,
+  "verify_head_deg": 3.5,
+  "verify_dist": 0.08,
+  "verify_s": 0.5,
+  "backoff_dist": 0.6,
+  "max_backoff": 3,
+  "max_retries": 2,
+  "safe_dist": 0.55,
+  "safe_sector_deg": 30.0,
+  "clear_s": 1.0
+ },
+ "data": {
+  "init_done": false,
+  "sensors_ok": false,
+  "navi_ok": false,
+  "track": null,
+  "hist": [],
+  "cands": [],
+  "pallet_confirmed": false,
+  "track_lost": false,
+  "approach_done": false,
+  "pallet_ref": null,
+  "approach_ok": false,
+  "app_fail": false,
+  "entered": false,
+  "blacklist": [],
+  "n_loc": 0,
+  "retry_ok": true,
+  "est": null,
+  "sweep": null,
+  "tag_ok": false,
+  "pose_ready": false,
+  "pose_stale": false,
+  "pose_ok": false,
+  "tag_fail": false,
+  "mstate": null,
+  "feasible": false,
+  "repos_done": false,
+  "at_predock": false,
+  "predock_miss": false,
+  "at_dock": false,
+  "dock_verified": false,
+  "dock_bad": false,
+  "backoff_done": false,
+  "n_bo": 0,
+  "bo_ok": true,
+  "arrived_ok": false,
+  "guide_fail": false,
+  "sstate": null,
+  "obstacle_near": false,
+  "path_clear": true
+ },
+ "grafcets": [
+  {
+   "id": "G0",
+   "idef0": "A0",
+   "name": "Navigate AGV to pallet docking position",
+   "initial": [
+    "0"
+   ],
+   "steps": [
+    {
+     "id": "0",
+     "idef0": "A0",
+     "actions": [
+      {
+       "fn": "a0_init",
+       "in": [],
+       "out": [
+        "cmd",
+        "init_done"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "1",
+     "idef0": "A1",
+     "timeout": 2.0,
+     "actions": [
+      {
+       "fn": "a1_check_sensors",
+       "in": [
+        "odom",
+        "scan"
+       ],
+       "out": [
+        "sensors_ok"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "2",
+     "idef0": "A2",
+     "actions": [
+      {
+       "fn": "a2_navigate",
+       "in": [],
+       "out": [
+        "navi_ok"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "3",
+     "idef0": "A3",
+     "macro": "G3",
+     "timeout": 90.0
+    },
+    {
+     "id": "4",
+     "idef0": "A4",
+     "macro": "G4",
+     "timeout": 40.0
+    },
+    {
+     "id": "5",
+     "idef0": "A5",
+     "macro": "G5",
+     "timeout": 120.0
+    },
+    {
+     "id": "6",
+     "idef0": "A0",
+     "status": "DOCKED",
+     "actions": [
+      {
+       "fn": "a6_docked",
+       "in": [],
+       "out": [
+        "cmd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "9",
+     "idef0": "A0",
+     "status": "ABORTED",
+     "actions": [
+      {
+       "fn": "a9_abort",
+       "in": [],
+       "out": [
+        "cmd"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T0_1",
+     "from": [
+      "0"
+     ],
+     "to": [
+      "1"
+     ],
+     "cond": "init_done"
+    },
+    {
+     "id": "T0_2",
+     "from": [
+      "1"
+     ],
+     "to": [
+      "2"
+     ],
+     "cond": "(sensors_ok and start_approach) and not XS9"
+    },
+    {
+     "id": "T0_3",
+     "from": [
+      "1"
+     ],
+     "to": [
+      "4"
+     ],
+     "cond": "(sensors_ok and not start_approach) and not XS9"
+    },
+    {
+     "id": "T0_4",
+     "from": [
+      "1"
+     ],
+     "to": [
+      "9"
+     ],
+     "cond": "(TO1 and not sensors_ok) or XS9"
+    },
+    {
+     "id": "T0_5",
+     "from": [
+      "2"
+     ],
+     "to": [
+      "3"
+     ],
+     "cond": "(navi_ok) and not XS9"
+    },
+    {
+     "id": "T0_6",
+     "from": [
+      "3"
+     ],
+     "to": [
+      "4"
+     ],
+     "cond": "(approach_ok and X36) and not XS9"
+    },
+    {
+     "id": "T0_7",
+     "from": [
+      "3"
+     ],
+     "to": [
+      "9"
+     ],
+     "cond": "(not X36 and ((app_fail and X3E) or TO3)) or XS9"
+    },
+    {
+     "id": "T0_8",
+     "from": [
+      "4"
+     ],
+     "to": [
+      "5"
+     ],
+     "cond": "(pose_ok and X44) and not XS9"
+    },
+    {
+     "id": "T0_9",
+     "from": [
+      "4"
+     ],
+     "to": [
+      "3"
+     ],
+     "cond": "(not X44 and tag_fail and X4E and retry_ok) and not XS9"
+    },
+    {
+     "id": "T0_10",
+     "from": [
+      "4"
+     ],
+     "to": [
+      "9"
+     ],
+     "cond": "(not X44 and ((tag_fail and X4E and not retry_ok) or (TO4 and not X4E))) or XS9"
+    },
+    {
+     "id": "T0_11",
+     "from": [
+      "5"
+     ],
+     "to": [
+      "6"
+     ],
+     "cond": "(arrived_ok and X58) and not XS9"
+    },
+    {
+     "id": "T0_12",
+     "from": [
+      "5"
+     ],
+     "to": [
+      "4"
+     ],
+     "cond": "(not X58 and guide_fail and X5E and retry_ok) and not XS9"
+    },
+    {
+     "id": "T0_13",
+     "from": [
+      "5"
+     ],
+     "to": [
+      "9"
+     ],
+     "cond": "(not X58 and ((guide_fail and X5E and not retry_ok) or (TO5 and not X5E))) or XS9"
+    },
+    {
+     "id": "T0_14",
+     "from": [
+      "2"
+     ],
+     "to": [
+      "9"
+     ],
+     "cond": "XS9"
+    }
+   ]
+  },
+  {
+   "id": "G3",
+   "idef0": "A3",
+   "name": "Recognize pallet and approach it",
+   "initial": [
+    "30"
+   ],
+   "steps": [
+    {
+     "id": "30",
+     "idef0": "A3",
+     "actions": [
+      {
+       "fn": "a30_enter",
+       "in": [],
+       "out": [
+        "cmd",
+        "track",
+        "hist",
+        "approach_ok",
+        "app_fail",
+        "entered"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "31",
+     "idef0": "A31,A32",
+     "timeout": 40.0,
+     "actions": [
+      {
+       "fn": "a31_search_rotate",
+       "in": [
+        "P"
+       ],
+       "out": [
+        "cmd"
+       ]
+      },
+      {
+       "fn": "a321_candidates",
+       "in": [
+        "pallets",
+        "odom",
+        "blacklist",
+        "P"
+       ],
+       "out": [
+        "cands"
+       ]
+      },
+      {
+       "fn": "a322_confirm",
+       "in": [
+        "cands",
+        "hist",
+        "t",
+        "P"
+       ],
+       "out": [
+        "hist",
+        "pallet_confirmed",
+        "track"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "32",
+     "idef0": "A32,A34",
+     "timeout": 40.0,
+     "actions": [
+      {
+       "fn": "a321_candidates",
+       "in": [
+        "pallets",
+        "odom",
+        "blacklist",
+        "P"
+       ],
+       "out": [
+        "cands"
+       ]
+      },
+      {
+       "fn": "a323_track",
+       "in": [
+        "cands",
+        "track",
+        "t",
+        "P"
+       ],
+       "out": [
+        "track",
+        "track_lost"
+       ]
+      },
+      {
+       "fn": "a34_approach_cmd",
+       "in": [
+        "track",
+        "odom",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "approach_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "35",
+     "idef0": "A35",
+     "actions": [
+      {
+       "fn": "a35_exit",
+       "in": [
+        "track",
+        "odom"
+       ],
+       "out": [
+        "cmd",
+        "pallet_ref",
+        "approach_ok"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "36",
+     "idef0": "A3",
+     "final": true,
+     "actions": []
+    },
+    {
+     "id": "3E",
+     "idef0": "A3",
+     "final": true,
+     "actions": [
+      {
+       "fn": "a3e_fail",
+       "in": [],
+       "out": [
+        "cmd",
+        "app_fail"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T3_1",
+     "from": [
+      "30"
+     ],
+     "to": [
+      "31"
+     ],
+     "cond": "entered"
+    },
+    {
+     "id": "T3_2",
+     "from": [
+      "31"
+     ],
+     "to": [
+      "32"
+     ],
+     "cond": "pallet_confirmed"
+    },
+    {
+     "id": "T3_3",
+     "from": [
+      "31"
+     ],
+     "to": [
+      "3E"
+     ],
+     "cond": "TO31 and not pallet_confirmed"
+    },
+    {
+     "id": "T3_4",
+     "from": [
+      "32"
+     ],
+     "to": [
+      "35"
+     ],
+     "cond": "approach_done"
+    },
+    {
+     "id": "T3_5",
+     "from": [
+      "32"
+     ],
+     "to": [
+      "31"
+     ],
+     "cond": "track_lost and not approach_done"
+    },
+    {
+     "id": "T3_6",
+     "from": [
+      "32"
+     ],
+     "to": [
+      "3E"
+     ],
+     "cond": "TO32 and not approach_done and not track_lost"
+    },
+    {
+     "id": "T3_7",
+     "from": [
+      "35"
+     ],
+     "to": [
+      "36"
+     ],
+     "cond": "approach_ok"
+    }
+   ]
+  },
+  {
+   "id": "G4",
+   "idef0": "A4",
+   "name": "Localize pocket center",
+   "initial": [
+    "40"
+   ],
+   "continuous": [
+    {
+     "fn": "a43_update_pose",
+     "in": [
+      "est",
+      "odom",
+      "tags",
+      "t",
+      "P"
+     ],
+     "out": [
+      "est"
+     ]
+    },
+    {
+     "fn": "a44_pose_status",
+     "in": [
+      "est",
+      "t",
+      "P"
+     ],
+     "out": [
+      "tag_ok",
+      "pose_ready",
+      "pose_stale"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "id": "40",
+     "idef0": "A4",
+     "actions": [
+      {
+       "fn": "a40_enter",
+       "in": [
+        "n_loc",
+        "est",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "n_loc",
+        "retry_ok",
+        "est",
+        "sweep",
+        "pose_ok",
+        "tag_fail",
+        "entered"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "41",
+     "idef0": "A41",
+     "timeout": 12.0,
+     "actions": [
+      {
+       "fn": "a41_tag_sweep",
+       "in": [
+        "odom",
+        "pallet_ref",
+        "sweep",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "sweep"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "42",
+     "idef0": "A42",
+     "timeout": 4.0,
+     "actions": [
+      {
+       "fn": "a42_hold",
+       "in": [],
+       "out": [
+        "cmd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "43",
+     "idef0": "A43",
+     "actions": [
+      {
+       "fn": "a43_publish",
+       "in": [
+        "est"
+       ],
+       "out": [
+        "pose_ok"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "44",
+     "idef0": "A4",
+     "final": true,
+     "actions": []
+    },
+    {
+     "id": "4E",
+     "idef0": "A4",
+     "final": true,
+     "actions": [
+      {
+       "fn": "a4e_blacklist",
+       "in": [
+        "blacklist",
+        "pallet_ref"
+       ],
+       "out": [
+        "cmd",
+        "blacklist",
+        "tag_fail"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T4_1",
+     "from": [
+      "40"
+     ],
+     "to": [
+      "41"
+     ],
+     "cond": "entered"
+    },
+    {
+     "id": "T4_2",
+     "from": [
+      "41"
+     ],
+     "to": [
+      "42"
+     ],
+     "cond": "tag_ok"
+    },
+    {
+     "id": "T4_3",
+     "from": [
+      "41"
+     ],
+     "to": [
+      "4E"
+     ],
+     "cond": "TO41 and not tag_ok"
+    },
+    {
+     "id": "T4_4",
+     "from": [
+      "42"
+     ],
+     "to": [
+      "43"
+     ],
+     "cond": "pose_ready"
+    },
+    {
+     "id": "T4_5",
+     "from": [
+      "42"
+     ],
+     "to": [
+      "41"
+     ],
+     "cond": "TO42 and not pose_ready"
+    },
+    {
+     "id": "T4_6",
+     "from": [
+      "43"
+     ],
+     "to": [
+      "44"
+     ],
+     "cond": "pose_ok"
+    }
+   ]
+  },
+  {
+   "id": "G5",
+   "idef0": "A5",
+   "name": "Guide AGV into docking position",
+   "initial": [
+    "50"
+   ],
+   "continuous": [
+    {
+     "fn": "a43_update_pose",
+     "in": [
+      "est",
+      "odom",
+      "tags",
+      "t",
+      "P"
+     ],
+     "out": [
+      "est"
+     ]
+    },
+    {
+     "fn": "a44_pose_status",
+     "in": [
+      "est",
+      "t",
+      "P"
+     ],
+     "out": [
+      "tag_ok",
+      "pose_ready",
+      "pose_stale"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "id": "50",
+     "idef0": "A5",
+     "actions": [
+      {
+       "fn": "a50_enter",
+       "in": [],
+       "out": [
+        "cmd",
+        "mstate",
+        "n_bo",
+        "bo_ok",
+        "arrived_ok",
+        "guide_fail",
+        "entered"
+       ]
+      }
+     ],
+     "completes_within": 0.2
+    },
+    {
+     "id": "51",
+     "idef0": "A51",
+     "actions": [
+      {
+       "fn": "a51_plan",
+       "in": [
+        "est",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "feasible"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "52",
+     "idef0": "A52",
+     "timeout": 25.0,
+     "actions": [
+      {
+       "fn": "a52_reposition",
+       "in": [
+        "est",
+        "mstate",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "repos_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "53",
+     "idef0": "A53",
+     "timeout": 40.0,
+     "actions": [
+      {
+       "fn": "a53_converge",
+       "in": [
+        "est",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "at_predock",
+        "predock_miss"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "54",
+     "idef0": "A54",
+     "timeout": 8.0,
+     "actions": [
+      {
+       "fn": "a54_reacquire",
+       "in": [
+        "est",
+        "mstate",
+        "t",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "55",
+     "idef0": "A55",
+     "timeout": 40.0,
+     "actions": [
+      {
+       "fn": "a55_final_approach",
+       "in": [
+        "est",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "at_dock"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "56",
+     "idef0": "A56",
+     "actions": [
+      {
+       "fn": "a56_verify",
+       "in": [
+        "est",
+        "mstate",
+        "t",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "dock_verified",
+        "dock_bad",
+        "arrived_ok"
+       ]
+      }
+     ],
+     "completes_within": 1.0
+    },
+    {
+     "id": "57",
+     "idef0": "A57",
+     "timeout": 10.0,
+     "actions": [
+      {
+       "fn": "a57_backoff",
+       "in": [
+        "odom",
+        "mstate",
+        "n_bo",
+        "P"
+       ],
+       "out": [
+        "cmd",
+        "mstate",
+        "n_bo",
+        "bo_ok",
+        "backoff_done"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "58",
+     "idef0": "A5",
+     "final": true,
+     "actions": []
+    },
+    {
+     "id": "5E",
+     "idef0": "A5",
+     "final": true,
+     "actions": [
+      {
+       "fn": "a5e_fail",
+       "in": [],
+       "out": [
+        "cmd",
+        "guide_fail"
+       ]
+      }
+     ]
+    }
+   ],
+   "transitions": [
+    {
+     "id": "T5_1",
+     "from": [
+      "50"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "entered"
+    },
+    {
+     "id": "T5_2",
+     "from": [
+      "51"
+     ],
+     "to": [
+      "53"
+     ],
+     "cond": "feasible and not pose_stale"
+    },
+    {
+     "id": "T5_3",
+     "from": [
+      "51"
+     ],
+     "to": [
+      "52"
+     ],
+     "cond": "not feasible and not pose_stale"
+    },
+    {
+     "id": "T5_4",
+     "from": [
+      "51"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "pose_stale"
+    },
+    {
+     "id": "T5_5",
+     "from": [
+      "52"
+     ],
+     "to": [
+      "54"
+     ],
+     "cond": "repos_done"
+    },
+    {
+     "id": "T5_6",
+     "from": [
+      "52"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "TO52 and not repos_done"
+    },
+    {
+     "id": "T5_7",
+     "from": [
+      "54"
+     ],
+     "to": [
+      "51"
+     ],
+     "cond": "tag_ok"
+    },
+    {
+     "id": "T5_8",
+     "from": [
+      "54"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "TO54 and not tag_ok"
+    },
+    {
+     "id": "T5_9",
+     "from": [
+      "53"
+     ],
+     "to": [
+      "55"
+     ],
+     "cond": "at_predock"
+    },
+    {
+     "id": "T5_10",
+     "from": [
+      "53"
+     ],
+     "to": [
+      "57"
+     ],
+     "cond": "predock_miss and not at_predock and bo_ok"
+    },
+    {
+     "id": "T5_11",
+     "from": [
+      "53"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "not at_predock and ((predock_miss and not bo_ok) or (pose_stale and not predock_miss) or (TO53 and not predock_miss and not pose_stale))"
+    },
+    {
+     "id": "T5_12",
+     "from": [
+      "55"
+     ],
+     "to": [
+      "56"
+     ],
+     "cond": "at_dock"
+    },
+    {
+     "id": "T5_13",
+     "from": [
+      "55"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "not at_dock and (pose_stale or TO55)"
+    },
+    {
+     "id": "T5_14",
+     "from": [
+      "56"
+     ],
+     "to": [
+      "58"
+     ],
+     "cond": "dock_verified"
+    },
+    {
+     "id": "T5_15",
+     "from": [
+      "56"
+     ],
+     "to": [
+      "57"
+     ],
+     "cond": "dock_bad and not dock_verified and bo_ok"
+    },
+    {
+     "id": "T5_16",
+     "from": [
+      "56"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "dock_bad and not dock_verified and not bo_ok"
+    },
+    {
+     "id": "T5_17",
+     "from": [
+      "57"
+     ],
+     "to": [
+      "54"
+     ],
+     "cond": "backoff_done"
+    },
+    {
+     "id": "T5_18",
+     "from": [
+      "57"
+     ],
+     "to": [
+      "5E"
+     ],
+     "cond": "TO57 and not backoff_done"
+    }
+   ]
+  },
+  {
+   "id": "GS",
+   "idef0": "A6",
+   "name": "Supervise path safety (CR-1)",
+   "initial": [
+    "S0"
+   ],
+   "supervisor": true,
+   "continuous": [
+    {
+     "fn": "as1_obstacle_monitor",
+     "in": [
+      "scan",
+      "sstate",
+      "t",
+      "P"
+     ],
+     "out": [
+      "sstate",
+      "obstacle_near",
+      "path_clear"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "id": "S0",
+     "idef0": "A61",
+     "monitor": true,
+     "actions": []
+    },
+    {
+     "id": "S1",
+     "idef0": "A62",
+     "timeout": 20.0,
+     "override": true,
+     "actions": [
+      {
+       "fn": "as2_inhibit_forward",
+       "in": [
+        "cmd"
+       ],
+       "out": [
+        "cmd"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S9",
+     "idef0": "A6",
+     "final": true,
+     "actions": []
+    }
+   ],
+   "transitions": [
+    {
+     "id": "TS_1",
+     "from": [
+      "S0"
+     ],
+     "to": [
+      "S1"
+     ],
+     "cond": "obstacle_near"
+    },
+    {
+     "id": "TS_2",
+     "from": [
+      "S1"
+     ],
+     "to": [
+      "S0"
+     ],
+     "cond": "path_clear"
+    },
+    {
+     "id": "TS_3",
+     "from": [
+      "S1"
+     ],
+     "to": [
+      "S9"
+     ],
+     "cond": "TOS1 and not path_clear"
+    }
+   ]
+  }
+ ],
+ "revision": "v2 (after Gate-2 review: explicit OR-priority, IDEF0 mapping of merged steps)",
+ "concurrent": [
+  "GS"
+ ]
+}

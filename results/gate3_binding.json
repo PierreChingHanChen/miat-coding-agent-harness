@@ -1,0 +1,104 @@
+{
+ "reference_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_1_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_2_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_3_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_4_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_sonnet_1_v1": {
+  "required": 29,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_2_v1": {
+  "required": 29,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_3_v1": {
+  "required": 29,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_4_v1": {
+  "required": 29,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "reference_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_1_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_2_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_3_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_haiku_4_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ },
+ "M_sonnet_1_v2": {
+  "required": 31,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_2_v2": {
+  "required": 31,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_3_v2": {
+  "required": 31,
+  "missing": [
+   "a5e_fail"
+  ],
+  "arity_mismatch": []
+ },
+ "M_sonnet_4_v2": {
+  "required": 31,
+  "missing": [],
+  "arity_mismatch": []
+ }
+}

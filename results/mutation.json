@@ -1,0 +1,1286 @@
+[
+ {
+  "id": 0,
+  "kind": "model",
+  "op": "negate",
+  "target": "T4_1",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 1,
+  "kind": "model",
+  "op": "drop_not",
+  "target": "T0_10",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 2,
+  "kind": "model",
+  "op": "retarget",
+  "target": "T4_6",
+  "L1": true,
+  "L1info": {
+   "n": 2,
+   "rules": [
+    "G1",
+    "G6"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 3,
+  "kind": "model",
+  "op": "drop_timeout",
+  "target": "X1",
+  "L1": true,
+  "L1info": {
+   "n": 2,
+   "rules": [
+    "G10",
+    "G7"
+   ],
+   "localized": true
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 4,
+  "kind": "model",
+  "op": "true_cond",
+  "target": "T4_4",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 5,
+  "kind": "model",
+  "op": "drop_transition",
+  "target": "T5_12",
+  "L1": true,
+  "L1info": {
+   "n": 3,
+   "rules": [
+    "G1",
+    "G6"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 25
+  }
+ },
+ {
+  "id": 6,
+  "kind": "model",
+  "op": "negate",
+  "target": "T0_4",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 7,
+  "kind": "model",
+  "op": "drop_not",
+  "target": "T0_3",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 15,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 15
+  }
+ },
+ {
+  "id": 8,
+  "kind": "model",
+  "op": "retarget",
+  "target": "T0_6",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 9,
+  "kind": "model",
+  "op": "drop_timeout",
+  "target": "X52",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G10"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 19,
+  "L3_n": 25,
+  "L3_reasons": {
+   "exception": 19
+  }
+ },
+ {
+  "id": 10,
+  "kind": "model",
+  "op": "true_cond",
+  "target": "T3_3",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 11,
+  "kind": "model",
+  "op": "drop_transition",
+  "target": "T0_6",
+  "L1": true,
+  "L1info": {
+   "n": 3,
+   "rules": [
+    "G11"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 13
+  }
+ },
+ {
+  "id": 12,
+  "kind": "model",
+  "op": "negate",
+  "target": "T5_10",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 13,
+  "kind": "model",
+  "op": "drop_not",
+  "target": "T5_2",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 15,
+   "reported_aborted": 10
+  }
+ },
+ {
+  "id": 14,
+  "kind": "model",
+  "op": "retarget",
+  "target": "T0_4",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 15,
+  "kind": "model",
+  "op": "drop_timeout",
+  "target": "X3",
+  "L1": true,
+  "L1info": {
+   "n": 3,
+   "rules": [
+    "G10",
+    "G7",
+    "G8"
+   ],
+   "localized": true
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "exception": 13
+  }
+ },
+ {
+  "id": 16,
+  "kind": "model",
+  "op": "true_cond",
+  "target": "T5_15",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 15,
+   "reported_aborted": 10
+  }
+ },
+ {
+  "id": 17,
+  "kind": "model",
+  "op": "drop_transition",
+  "target": "T5_15",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 18,
+  "kind": "model",
+  "op": "negate",
+  "target": "T5_12",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 16,
+   "timeout": 9
+  }
+ },
+ {
+  "id": 19,
+  "kind": "model",
+  "op": "drop_not",
+  "target": "T0_4",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 20,
+  "kind": "model",
+  "op": "retarget",
+  "target": "T5_11",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 21,
+  "kind": "model",
+  "op": "drop_timeout",
+  "target": "X32",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G10"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "exception": 13
+  }
+ },
+ {
+  "id": 22,
+  "kind": "model",
+  "op": "true_cond",
+  "target": "T0_10",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 23,
+  "kind": "model",
+  "op": "drop_transition",
+  "target": "T5_9",
+  "L1": true,
+  "L1info": {
+   "n": 4,
+   "rules": [
+    "G1",
+    "G6"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 23,
+   "reported_aborted": 2
+  }
+ },
+ {
+  "id": 24,
+  "kind": "model",
+  "op": "negate",
+  "target": "T0_8",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 3,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 3
+  }
+ },
+ {
+  "id": 25,
+  "kind": "model",
+  "op": "drop_not",
+  "target": "T5_11",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 26,
+  "kind": "model",
+  "op": "retarget",
+  "target": "T3_7",
+  "L1": true,
+  "L1info": {
+   "n": 2,
+   "rules": [
+    "G1",
+    "G6"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 27,
+  "kind": "model",
+  "op": "drop_timeout",
+  "target": "X41",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G10"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 3,
+  "L3_n": 25,
+  "L3_reasons": {
+   "exception": 3
+  }
+ },
+ {
+  "id": 28,
+  "kind": "model",
+  "op": "true_cond",
+  "target": "T5_10",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G4"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 29,
+  "kind": "model",
+  "op": "drop_transition",
+  "target": "T0_5",
+  "L1": true,
+  "L1info": {
+   "n": 1,
+   "rules": [
+    "G11"
+   ],
+   "localized": false
+  },
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 10,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 10
+  }
+ },
+ {
+  "id": 30,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a52_reposition",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a52_reposition"
+   ],
+   "localized": true
+  },
+  "L3_fail": 17,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 12,
+   "reported_aborted": 5
+  }
+ },
+ {
+  "id": 31,
+  "kind": "action",
+  "op": "const",
+  "target": "a322_confirm",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 32,
+  "kind": "action",
+  "op": "arith",
+  "target": "a42_tag_to_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a42_tag_to_pose",
+    "a43_update_pose"
+   ],
+   "localized": true
+  },
+  "L3_fail": 5,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 5
+  }
+ },
+ {
+  "id": 33,
+  "kind": "action",
+  "op": "neg",
+  "target": "a55_final_approach",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a55_final_approach"
+   ],
+   "localized": true
+  },
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 34,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a51_plan",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a51_plan"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 35,
+  "kind": "action",
+  "op": "const",
+  "target": "a57_backoff",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a57_backoff"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 36,
+  "kind": "action",
+  "op": "arith",
+  "target": "a41_tag_sweep",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a41_tag_sweep"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 37,
+  "kind": "action",
+  "op": "neg",
+  "target": "a53_converge",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a53_converge"
+   ],
+   "localized": true
+  },
+  "L3_fail": 22,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 22
+  }
+ },
+ {
+  "id": 38,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a55_final_approach",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a55_final_approach"
+   ],
+   "localized": true
+  },
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 17,
+   "timeout": 8
+  }
+ },
+ {
+  "id": 39,
+  "kind": "action",
+  "op": "const",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a43_update_pose"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 40,
+  "kind": "action",
+  "op": "arith",
+  "target": "a321_candidates",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a321_candidates"
+   ],
+   "localized": true
+  },
+  "L3_fail": 11,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 11
+  }
+ },
+ {
+  "id": 41,
+  "kind": "action",
+  "op": "neg",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 42,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a322_confirm",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a322_confirm"
+   ],
+   "localized": true
+  },
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 43,
+  "kind": "action",
+  "op": "const",
+  "target": "a53_converge",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 44,
+  "kind": "action",
+  "op": "arith",
+  "target": "a34_approach_cmd",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a34_approach_cmd"
+   ],
+   "localized": true
+  },
+  "L3_fail": 10,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 9,
+   "collision_obstacle": 1
+  }
+ },
+ {
+  "id": 45,
+  "kind": "action",
+  "op": "neg",
+  "target": "a53_converge",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a53_converge"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 46,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a56_verify",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a56_verify"
+   ],
+   "localized": true
+  },
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "timeout": 25
+  }
+ },
+ {
+  "id": 47,
+  "kind": "action",
+  "op": "const",
+  "target": "a52_reposition",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 48,
+  "kind": "action",
+  "op": "arith",
+  "target": "a322_confirm",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a322_confirm"
+   ],
+   "localized": true
+  },
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 49,
+  "kind": "action",
+  "op": "neg",
+  "target": "a42_tag_to_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a42_tag_to_pose",
+    "a43_update_pose"
+   ],
+   "localized": true
+  },
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 23,
+   "collision_obstacle": 2
+  }
+ },
+ {
+  "id": 50,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a53_converge",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a53_converge"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 51,
+  "kind": "action",
+  "op": "const",
+  "target": "a322_confirm",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 52,
+  "kind": "action",
+  "op": "arith",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a43_update_pose"
+   ],
+   "localized": true
+  },
+  "L3_fail": 19,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 19
+  }
+ },
+ {
+  "id": 53,
+  "kind": "action",
+  "op": "neg",
+  "target": "a52_reposition",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a52_reposition"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 54,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a34_approach_cmd",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a34_approach_cmd"
+   ],
+   "localized": true
+  },
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 55,
+  "kind": "action",
+  "op": "const",
+  "target": "a53_converge",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 56,
+  "kind": "action",
+  "op": "arith",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 57,
+  "kind": "action",
+  "op": "neg",
+  "target": "a42_tag_to_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a42_tag_to_pose",
+    "a43_update_pose"
+   ],
+   "localized": true
+  },
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 58,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a56_verify",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a56_verify"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 59,
+  "kind": "action",
+  "op": "const",
+  "target": "a51_plan",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 60,
+  "kind": "action",
+  "op": "arith",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 25
+  }
+ },
+ {
+  "id": 61,
+  "kind": "action",
+  "op": "neg",
+  "target": "a34_approach_cmd",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a34_approach_cmd"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 62,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a44_pose_status",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a44_pose_status"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 63,
+  "kind": "action",
+  "op": "const",
+  "target": "a52_reposition",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 64,
+  "kind": "action",
+  "op": "arith",
+  "target": "a322_confirm",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 65,
+  "kind": "action",
+  "op": "neg",
+  "target": "a54_reacquire",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a54_reacquire"
+   ],
+   "localized": true
+  },
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 66,
+  "kind": "action",
+  "op": "cmp",
+  "target": "a332_pallet_distance",
+  "L1": false,
+  "L1info": null,
+  "L2": true,
+  "L2info": {
+   "failing": [
+    "a321_candidates",
+    "a332_pallet_distance"
+   ],
+   "localized": true
+  },
+  "L3_fail": 13,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 13
+  }
+ },
+ {
+  "id": 67,
+  "kind": "action",
+  "op": "const",
+  "target": "a41_tag_sweep",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ },
+ {
+  "id": 68,
+  "kind": "action",
+  "op": "arith",
+  "target": "a43_update_pose",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 25,
+  "L3_n": 25,
+  "L3_reasons": {
+   "reported_aborted": 21,
+   "timeout": 4
+  }
+ },
+ {
+  "id": 69,
+  "kind": "action",
+  "op": "neg",
+  "target": "a54_reacquire",
+  "L1": false,
+  "L1info": null,
+  "L2": false,
+  "L2info": null,
+  "L3_fail": 0,
+  "L3_n": 25,
+  "L3_reasons": {}
+ }
+]
