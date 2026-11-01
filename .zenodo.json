@@ -1,0 +1,12 @@
+{
+  "title": "MIAT as a Harness for LLM Coding Agents: Replication Package",
+  "upload_type": "software",
+  "description": "Replication package for the manuscript \"Model-Driven Harnesses for LLM Coding Agents: Contract-Bounded Generation under Synthesized Controllers\" (submitted to IEEE Transactions on Software Engineering). It contains the harness artifacts (requirements, action contracts, test vectors, GRAFCET models), the rule-based controller synthesizer, the Gate M model checker, the AGV-DockSim surrogate simulator, 48 agent-generated programs with their CR-1 revisions, sanitized transcripts of all 51 agent runs, raw trial logs, and scripts that regenerate every table and figure. Code is released under the MIT License (LICENSE); data, generated programs, transcripts and documents under CC BY 4.0 (LICENSE-DATA).",
+  "creators": [
+    {"name": "Chen, Ching-Han", "affiliation": "Department of Computer Science and Information Engineering, National Central University, Taiwan"},
+    {"name": "Lin, Wen-Tao", "affiliation": "Department of Computer Science and Information Engineering, National Central University, Taiwan"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["large language models", "coding agents", "agent harness", "model-driven engineering", "GRAFCET", "design by contract", "cyber-physical systems", "replication package"],
+  "access_right": "open"
+}
