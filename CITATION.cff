@@ -9,7 +9,7 @@ authors:
   - family-names: Lin
     given-names: Wen-Tao
     affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
-license: [MIT, CC-BY-4.0]
+license: CC-BY-4.0
 date-released: 2026-10-30
 preferred-citation:
   type: article
