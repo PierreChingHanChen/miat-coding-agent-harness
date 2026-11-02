@@ -1,10 +1,12 @@
 # MIAT as a Harness for LLM Coding Agents — Replication Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23853817.svg)](https://doi.org/10.5281/zenodo.23853817)
+
 Data, code and generated programs for the manuscript
 
-> C.-H. Chen, W.-T. Lin, et al., **"Model-Driven Harnesses for LLM Coding Agents: Contract-Bounded Generation under Synthesized Controllers,"** submitted to *IEEE Transactions on Software Engineering*, 2026.
+> C.-H. Chen and P.-W. Chen, **"Model-Driven Harnesses for LLM Coding Agents: Contract-Bounded Generation under Synthesized Controllers,"** submitted to *IEEE Transactions on Software Engineering*, 2026.
 
-The study asks whether a model-driven design method (MIAT: IDEF0 → GRAFCET → controller synthesis with contract-bounded datapath actions) can act as a *harness* for LLM coding agents. The case is a re-engineered ROS 2 AGV pallet-docking system [Chen & Lin, ICRAAI 2026]. Agents built on two models produced 48 independent implementations under six harness configurations. Every implementation was evaluated on 240 trials in a simulator that the agents never saw.
+The study asks whether a model-driven design method (MIAT: IDEF0 → GRAFCET → controller synthesis with contract-bounded datapath actions) can act as a *harness* for LLM coding agents. The case is a re-engineered ROS 2 AGV pallet-docking system [Chen, Chen & Lin, ICRAAI 2026]. Agents built on two models produced 48 independent implementations under six harness configurations. Every implementation was evaluated on 240 trials in a simulator that the agents never saw.
 
 Everything needed to re-run the analysis is here: the harness artifacts, the synthesizer and model checker, the simulator, all 48 generated programs with their change-request revisions, sanitized agent transcripts, raw trial logs, and the analysis scripts. All result files in `results/` regenerate identically with the commands below; the JSONL logs match line for line, though line order can differ. This was checked by running `reproduce.sh` on a clean copy before release.
 
@@ -179,7 +181,7 @@ Sanitization:
 ## Limitations of this package
 
 - AGV-DockSim is a surrogate calibrated against the detection data of the published system. It is not a replacement for the ROS 2/Gazebo set-up or the physical vehicle.
-- The original ROS 2 source code of the published system is not part of this package. The original model in `model/original_grafcet.json` was reconstructed from the paper and the thesis.
+- The original ROS 2 source code of the published system is not part of this package. The original model in `model/original_grafcet.json` was reconstructed from the published paper.
 - The manuscript itself is not included while it is under review.
 
 ## License

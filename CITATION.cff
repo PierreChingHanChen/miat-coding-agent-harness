@@ -6,9 +6,9 @@ authors:
   - family-names: Chen
     given-names: Ching-Han
     affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
-  - family-names: Lin
-    given-names: Wen-Tao
-    affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
+  - family-names: Chen
+    given-names: Pi-Wei
+    affiliation: "Doctoral School, Silesian University of Technology, Gliwice, Poland"
 license: CC-BY-4.0
 date-released: 2026-10-30
 preferred-citation:
@@ -17,8 +17,8 @@ preferred-citation:
   authors:
     - family-names: Chen
       given-names: Ching-Han
-    - family-names: Lin
-      given-names: Wen-Tao
+    - family-names: Chen
+      given-names: Pi-Wei
   journal: "IEEE Transactions on Software Engineering"
   year: 2026
   notes: "Submitted"
